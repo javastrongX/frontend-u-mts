@@ -1,0 +1,873 @@
+{
+  "avatar": {
+    "welcome": "Xush kelibsiz",
+    "brand": "TService.uz",
+    "brand_subtitle": "Maxsus jihozlar dunyosi",
+    "login": "Kirish",
+    "logout": "Chiqish",
+    "register": "Ro'yxatdan o'tish",
+    "support": "Qo'llab-quvvatlash"
+  },
+  "second_nav": {
+    "home": "Bosh sahifa",
+    "announcement": "E'lonlar",
+    "orders": "Buyurtmalar",
+    "for_business": "Biznes uchun",
+    "partners": "Hamkorlar",
+    "submit_ad": "Reklama berish",
+    "place_order": "Buyurtma berish"
+  },
+
+  "choose_lang": "Tilni tanlang",
+
+  "user_links": {
+    "balance": "Balansni to'ldirish",
+    "messages": "Xabarlar", 
+    "saved": "Sevimlilar"
+  },
+  "user_menu": {
+    "profile": "Profil",
+    "my_orders": "Mening buyurtmam",
+    "my_ads": "Mening reklamam", 
+    "my_favorites": "Mening Sevimlilarim",
+    "wallet": "Hamyonim",
+    "logout": "Chiqish"
+  },
+
+  "bottom_nav": {
+    "home": "Bosh sahifa",
+    "favorites": "Tanlanganlar",
+    "messages": "Xabarlar",
+    "profile": "Profil"
+  },
+  "filter_block": {
+    "all": "Barchasi",
+    "sell_special_tech": "Maxsus jihozlarni sotish",
+    "rent": "Maxsus jihozlarni ijaraga olish",
+    "spare_parts": "Ehtiyot qismlar",
+    "repair": "Ta'mirlash",
+    "drivers": "Haydovchilar"
+    },
+  "search": {
+    "placeholder": "Nimani topish kerak?"
+  },
+  "side_nav": {
+    "sell_special_tech": "Maxsus jihozlarni sotish",
+    "rent": "Maxsus jihozlarni ijaraga olish",
+    "orders": "Buyurtmalar",
+    "spare_parts": "Ehtiyot qismlar",
+    "repair": "Ta'mirlash",
+    "drivers": "Haydovchilar",
+    "news": "Yangiliklar"
+  },
+  "hot_offers": {
+    "hot_offer": "Qaynoq takliflar",
+    "iwannaCome": "Shu yerga!"
+  },
+  "mobile_hot_offers": {
+    "title": "O'zbekiston bo'ylab maxsus texnika",
+    "rank_search": " marta qidiruvda ko'tarilish",
+    "rank_hot_offer": " marta «Top» blokida",
+    "premium_product": "  marta «Premium» blokida",
+    "downloaded_all_resources": "Barcha mahsulotlar yuklandi"
+  },
+  "auth_register": {
+    "register": "Ro'yxatdan o'tish",
+    "country": "Mamlakat",
+    "select_country": "Mamlakatni tanlang",
+    "input_placeleholder": "Mamlakatni qidirish...",
+    "email_err": "Emailni kiritish shart",
+    "phone_err": "Telefon raqam kiritish shart",
+    "correct_err": "Email formati xato",
+    "country_err": "Iltimos, Mamlakatni tanlang",
+    "country_notFound": "Mamlakat topilmadi",
+    "confirm_login": "Tasdiqlash",
+    "already_login": "Allaqachon ro'yxatdan o'tganmisiz?",
+    "login": "Tizimga kirish",
+    "phone_format_error": "Telefon raqam noto'g'ri kiritildi!",
+    "email_format_error": "Email noto'g'ri kiritildi!",
+    "error": "Xatolik yuz berdi!",
+    "fill_fields": "Barcha maydonlarni to'ldiring!",
+    "phone": "Telefon raqam",
+    "registration_failed": "Ro'yxatdan o'tishda xatolik yuz berdi!",
+    "registering": "Tekshirilmoqda..."
+  },
+  "auth_login": {
+    "login": "Kirish",
+    "detail_login": "Kirish ma'lumotlari",
+    "email_or_phone": "Email yoki Telefon raqam",
+    "password": "Parol",
+    "forgot_passw": "Parolingiz esdan chiqdimi?",
+    "no_accaunt": "Hali hisobingiz yo'qmi?",
+    "register": "Ro‘yxatdan o‘tish",
+    "login_verify": "Tizimga kirish",
+    "email_or_phone_err": "Email yoki telefon raqamini to'liq kiriting",
+    "password_err": "Maydonlarni to'ldirish zarur"
+  },
+  "not_found": {
+    "404_notF": "404 - Sahifa topilmadi",
+    "apology": "Kechirasiz, siz izlagan sahifa mavjud emas.",
+    "home_btn": "Bosh sahifaga qaytish"
+  },
+  "order_sparePart": {
+    "zakaz": "Jihozlarga buyurtmalar",
+    "place_order": "Buyurtma berish",
+    "view_allOrder": "Barcha buyurtmalarni ko'rish"
+  },
+  "categories": {
+    "type_of_spestexniki": "Maxsus jihozlarning turlari",
+    "spestexniki_on_city": "Shaharlarda maxsus jihozlar",
+    "brands_of_spestexniki": "Maxsus jihozlarning markalari",
+    "news": "Yangiliklar",
+    "watch_all_news": "Lentani ko'rish"
+  },
+  "contact_form": {
+    "title": "Biz sizga tanlashda yordam beramiz!",
+    "about_us_1": "Agar sizda biron bir savol bo'lsa yoki nimani tanlashni bilmasangiz, iltimos, bizning savdo bo'limimizga murojaat qiling yoki so'rov qoldiring.",
+    "about_us_2": "E'lonlar va shaxsiy akkauntingiz bilan bog'liq savollar bo'lsa, iltimos, foydalanuvchilarni qo'llab-quvvatlash xizmatiga murojaat qiling.",
+    "adress": "Toshkent Chilonzor 20-D 30-uy",
+    "name": "Ism",
+    "number_label": "Raqamingizni kiriting",
+    "country": "Mamlakatni tanlang",
+    "write_name": "Ismingizni kiriting",
+    "request_btn": "So'rov yuborish"
+  },
+  "footer": {
+    "available_mobileApp": "Endi yuklab olish mumkin",
+    "pages": "Sahifalar",
+    "home": "Asosiy sahifa",
+    "ad": "E'lon",
+    "companies": "Kompaniyalar",
+    "support": "Qo'llab-quvvatlash",
+    "services": "Xizmatlar",
+    "ads": "E'lonlar",
+    "rent": "Ijara",
+    "orders": "Buyurtmalar",
+    "terms_of_use": "Foydalanish shartlari",
+    "contacs": "Aloqa",
+    "document": "Hujjatlar"
+
+  },
+  "business": {
+    "title": "Maxsus jihozlar va ehtiyot qismlarni bemalol soting!",
+    "title_txt": "Biz maxsus asbob-uskunalar dilerlariga savdolarini samarali boshqarish, mijozlar bazasini kengaytirish va foydani oshirishga yordam beradigan noyob platformani taklif etamiz.",
+    "all_btn": "Sotishni boshlash",
+    "stats_txt": "TService.uz auditoriyasi asbob-uskunalar, ehtiyot qismlar va xizmatlarni sotib olish, sotish, ijaraga olishga qiziqqan 50 000 foydalanuvchini tashkil etadi.",
+    "advance_title": "TService biznesining afzalliklari",
+    "card1_title": "Mahsulot boshqaruvi",
+    "advance_card1": "Bir necha marta bosish orqali mahsulot kataloglarini yuklab oling va yangilang.\nKo'rinishni oshirish uchun mahsulotlarni arxivlash yoki ularni yuqoriga ko'tarish qobiliyati.\nO'rnatilgan valyuta konvertori yordamida narxlarni ommaviy konvertatsiya qilish - xalqaro mijozlar bilan ishlashni osonlashtiradi.",
+    "card2_title": "Mijozlar bilan samarali ishlash",
+    "advance_card2": "Buyurtmalarni to'g'ridan-to'g'ri platforma orqali qabul qilish va qayta ishlash. Yangi so'rovlar haqida bildirishnomalar, shuning uchun siz doimo mijozlar qiziqishlari haqida xabardor bo'lasiz.",
+    "card3_title": "Xodimlar bilan ishlash",
+    "advance_card3": "E'lonlar va statistikani boshqarish uchun kirish huquqiga ega xodimlarni qo'shing.\nMijozlarning ishonchini oshirish uchun kompaniya sertifikatlarini yuklang.",
+    "card4_title": "Tahlil va statistika",
+    "advance_card4": "E'lonlar bo'yicha to'liq statistika: ko'rishlar, qo'ng'iroqlar va xabarlar soni. Hisobotlar reklamalaringiz samaradorligini baholash va savdo strategiyangizni o'zgartirishga yordam beradi.",
+    "card5_title": "Qaynoq uzatmalar",
+    "advance_card5": "Endi siz reklamalarda qayta qo'ng'iroq qilish formasi orqali qaynoq takliflarni olishingiz mumkin. Mijozning aloqa ma'lumotlari tizimda saqlanadi, bu esa biznes hamkorlariga tezkor javob berishga va bitim tuzish imkoniyatlarini oshirishga yordam beradi. Muvaffaqiyatli mijozlarni jalb qilish va sotishni oshirish uchun platformaga qo'shiling!",
+    "card6_title": "Sevimlilarga xat yuborish",
+    "advance_card6": "Oyiga ikki martadan ko'p bo'lmagan sevimli ro'yxatlaringizni qo'shgan xaridorlarga chegirmalarni taklif qiling. Bu sizning mahsulotlaringizga qiziqishni saqlab qolish va takroriy xaridlarni rag'batlantirishga yordam beradi, shuningdek, potentsial mijozlar bilan aloqangizni mustahkamlaydi",
+    "tips_title": "Qanday qilib sotishni boshlash kerak?",
+    "tips_step1_title": "Roʻyxatdan oʻtish",
+    "tips_step1": "Iltimos, telefon raqamingiz va elektron pochta manzilingizni kiriting.",
+    "tips_step2_title": "Mahsulotlaringizni joylashtiring",
+    "tips_step2": "Rasmlar va tavsiflarni yuklang. TService.uz bir necha marta bosish orqali tovarlarni import qilish imkonini beradi.",
+    "tips_step3_title": "Buyurtmalarni qabul qilish",
+    "tips_step3": "Har bir buyurtmani tezda bajaring, chunki mijoz uni kutmoqda."
+  },
+  "adsfilterblock": {
+    "filter": "Filter",
+    "category_label_city": "Shahar",
+    "category_label_type": "Turi",
+    "category_label_brand": "Brend",
+    "category_label_price": "Narxi",
+    "category_label_year_release": "Ishlab chiqarilgan yili",
+    "category_label_profession": "Kasb",
+    "from": "dan",
+    "to": "gacha",
+    "condition": "Holati",
+    "new": "Yangi",
+    "used": "Ishlatilgan",
+    "reset": "Tozalash",
+    "show_announcement": "E'lonlarni ko'rish",
+    "list_of_announcements": "E'lonlar ro'yxati",
+    "total": "Jami:",
+    "results": "ta natijalar",
+    "refresh": "Qayta yuklash",
+    "more": "Ko'proq"
+  },
+  "activetabspage": {
+    "total_announcement_in_uzb": "O'zbekistondagi barcha e'lonlar",
+    "sale_of_special_equipment_in_uzb": "O'zbekistonda maxsus texnikani sotish",
+    "rent_of_special_equipment_in_uzb": "O'zbekistonda maxsus texnikani ijaraga olish",
+    "spare_parts_for_special_equipment_in_uzb": "O'zbekistonda maxsus texnikaga ehtiyot qismlari",
+    "repair_of_special_equipment_in_uzb": "O'zbekistonda maxsus texnikalarni ta'mirlash",
+    "drivers_for_special_equipment_in_uzb": "O'zbekistonda maxsus texnikalar uchun haydovchilar",
+    "announcement": "e'lonlar"
+  },
+  "rightsidebar": {
+    "top_offers": "Top takliflar",
+    "type_special_equipment": "Maxsus texnika turlari",
+    "city_special_equipment": "Shaharlardagi texnikalar",
+    "brand_special_equipment": "Texnika brendlari",
+    "more": "Ko'proq",
+    "hide": "Yopish"
+  },
+  "orderlist": {
+    "error": "Xatolik yuz berdi!",
+    "error_msg": "Ma'lumotlarni yuklashda xatolik yuz berdi.",
+    "retry": "Qayta urinish",
+    "no_data": "Buyurtmalar topilmadi",
+    "no_data_msg": "Hozircha hech qanday buyurtma mavjud emas",
+    "warn": "Ogohlantirish",
+    "warn_msg": "Server bilan bog'lanishda muammo.",
+    "no_order": "Buyurtmalar topilmadi",
+    "no_order_msg": "Ma'lumotlarni yuklashda xatolik yuz berdi",
+    "phone": "Telefon raqami",
+    "phone_desc": "Raqam:",
+    "phone_err": "Telefon raqami mavjud emas",
+    "phone_err_desc": "Bu buyurtma uchun telefon raqami ko'rsatilmagan",
+    "count_equipment": "ta najitalar topildi",
+    "page": "Sahifa"
+  },
+  "productcard": {
+    "data_notfound": "Ma'lumot topilmadi",
+    "no_title": "Sarlavha ko'rsatilmagan",
+    "show_phone": "Bog'lanish",
+    "agreed": "Kelishiladi",
+    "company": "Firma",
+    "no_city": "Ko'rsatilmagan",
+    "no_author": "Anonim"
+  },
+  "listingheader": {
+    "list_of_announcements": "Buyurtmalar ro'yxati",
+    "view_list": "Ro'yxat ko'rinishi",
+    "view_grid": "Grid ko'rinishi"
+  },
+  "partners": {
+    "rating": "Reyting",
+    "detail": "Batafsil",
+    "view_company": "Kompaniyani ko'rish",
+    "date_of_release": "Ro'yhatdan o'tgan sana:",
+    "official": "Rasmiy",
+    "no_data": "Hech narsa topilmadi",
+    "no_data_msg": "Qidiruv sozlamalarini tahrirlang yoki filterni tozalab urinib ko'ring",
+    "error_download": "Ma'lumotlarni yuklashda xatolik yuz berdi",
+    "error_download_desc": "Kompaniyalar ro'yxatini yuklab bo'lmadi",
+    "opening_profile": "Profilni ochish",
+    "opens_profile": "Kompaniya profili ochilmoqda...",
+    "search_by_name": "Nomi orqali qidirish",
+    "type_name": "Nomi yozing...",
+    "all_city": "Barcha shaharlar",
+    "specilization": "Mutaxasislik",
+    "all_specilization": "Barcha mutaxasisliklar",
+    "type_of_company": "Kompaniya turi",
+    "all_type": "Barcha turi",
+    "no_offical": "Norasmiy",
+    "reset": "Tozalash",
+    "search": "Qidirish",
+    "filter_search": "Qidiruv filteri",
+    "list_of_company": "Kompaniya ro'yxati",
+    "all_company": "Barcha kompaniyalar:"
+  },
+  "partsmarketplace": {
+    "message": "Yozish",
+    "goods": "Maxsulotlar",
+    "about_company": "Kompaniya haqida",
+    "search_placeholder": "Maxsulotlarni qidirish...",
+    "price_placeholder_from": "Narxnidan",
+    "price_placeholder_to": "Gacha",
+    "category": "Kategoriya",
+    "spare_parts": "Ehtiyot qismlar",
+    "dvigatel": "Dvigatel",
+    "gidravlika": "Gidravlika",
+    "company_info": {
+      "name": "Kompaniya nomi",
+      "exp_inWork": "Ish tajribasi",
+      "market": "Bozorda",
+      "years_inMarket": "yildan ortiq",
+      "delivery_geograph": "Yetkazish geografiyasi",
+      "status": "Darajasi",
+      "inform": "Tavsif",
+      "exp_years": "Ish tajribasi",
+      "products": "Maxsulotlar",
+      "clients": "Mijozlar",
+      "happiness": "Mamnunlik"
+    },
+    "productcard": {
+      "image_notAvailable": "Rasm mavjud emas"
+    },
+    "newscontent": {
+      "title": "Kompaniya yangiliklari",
+      "new_elem": "Yangi",
+      "development": "Rivojlanish"
+    },
+    "documentscontent": {
+      "quality_cert": "Sifat sertifikati",
+      "licence_cert": "Lisensiya",
+      "licence_desc": "Savdo faoliyati",
+      "manufactor": "Ishlab chiqarish",
+      "katalog": "Katalog"
+    }
+  },
+  "hotOfferDetail": {
+    "product": "Maxsulot",
+    "invalid_characteristics": "Xususiyatlar mavjud emas",
+    "label_view": "Ko'rishlar",
+    "label_sevimli": "Sevimli",
+    "label_ulashish": "Ulashish",
+    "untitled_product": "Noma'lum mahsulot",
+    "no_desc": "Tavsif mavjud emas",
+    "no_category": "Kategoriya ko'rsatilmagan",
+    "no_city": "Shahar ko'rsatilmagan",
+    "unknown": "Noma'lum",
+    "update_favourite_err": "Sevimlilarni yangilashda xatolik",
+    "add_favourite": "Sevimlilar ro'yxatiga qo'shish",
+    "remove_favourite": "Sevimlilar ro'yxatidan o'chirish",
+    "share_msg": "Havola nusxalandi",
+    "refresh_page": "Sahifani yangilash",
+    "back": "Orqaga qaytish",
+    "characteristic": "Xususiyatlar",
+    "statistika": "Statistika",
+    "you_might_like": "Sizga yoqishi mumkin",
+    "invalid_price": "Narx ko'rsatilmagan",
+    "company": "Kompaniya",
+    "authors_order": "Muallifning barcha e'lonlari",
+    "platform": "Platformaga kirgan vaqti:"
+  },
+  "report": {
+    "title": "Shikoyat qilish",
+    "reportReasons": {
+      "scam": "Firibgarlik, aldov, soxta e'lon",
+      "spam": "Spam",
+      "inappropriate": "Noto'g'ri Kontent",
+      "breaking_rules": "Qoidalarni buzish",
+      "cloned_order": "Mavjud reklamani qo'yish", 
+      "error_price": "Narxdagi xatolik",
+      "error_region_city": "Hudud yoki shahardagi xatolik",
+      "inappropriate_photo": "Rasm mos kelmaydi",
+      "others_content_photo": "Boshqalarning rasmlari ishlatilgan",
+      "phone_not_work": "Telefon javob bermaydi yoki o'chirilgan",
+      "someone_else_number": "Boshqa odamning raqami",
+      "sold_or_rented": "Sotilgan yoki ijaraga berilgan",
+      "other": "Boshqa"
+    },
+    "reason_report": "Shikoyat sababi",
+    "select_reason": "Shikoyat sababini tanlang",
+    "sent_report": "Shikoyat yuborildi",
+    "sent_report_desc": "Biz sizning shikoyatingizni tez orada ko'rib chiqamiz.",
+    "additional_inform": "Qo'shimcha ma'lumot",
+    "textarea_placeholder": "Iltimos, muammoni batafsil tasvirlab bering...",
+    "cancel": "Bekor qilish",
+    "sent_btn": "Shikoyatni yuborish"
+  },
+  "orderdetail": {
+    "share_order": "E'lonni ulashish",
+    "link_order": "E'lon havolasi:",
+    "directly_share": "Ushbu orqali ulash:",
+    "cancel":"Bekor qilish",
+    "order": "Buyurtma",
+    "verifyed": "Tasdiqlangan",
+    "seen": "ko'rishlar",
+    "label_date": "Joylangan sana",
+    "label_category": "Kategoriya",
+    "label_type": "Transport turi",
+    "detail_order": "Buyurtma tafsilotlari",
+    "agreed":"Kelishiladi",
+    "seller": "Buyurtmachi",
+    "count_orders": "buyurtmalar",
+    "show_phone": "Telefon raqam",
+    "similar_ads": "Ko'proq e'lonlar",
+    "all_orders": "Barcha e'lonlar",
+    "attached_doc": "Biriktirilgan hujjatlar"
+  },
+  "newscards": {
+    "news": "Yangiliklar",
+    "new": "yangilik",
+    "no_news": "Yangiliklar topilmadi",
+    "no_news_msg": "Hozircha yangiliklar mavjud emas.",
+    "no_news_msg_2": "Keyinroq sahifani yangilab sinab ko'ring.",
+    "share_txt": "Matn nusxalandi!",
+    "error_share": "Nusxalashda xatolik yuz berdi.",
+    "share_news": "Yangilikni ulashish",
+    "share_link": "Ulashish platformasini tanlang",
+    "share_social": "Ijtimoiy tarmoqlarda ulashing:",
+    "by_social": "Ulashing:",
+    "copy": "Nusxalash:",
+    "link": "Havola",
+    "text": "Matn",
+    "share_by_device": "Qurulma orqali ulashish"
+  },
+
+  "OrderTypeSelector": {
+    "error_load_failed": "Buyurtma turlarini yuklab bo'lmadi"
+  },
+
+  "Orderform": {
+    "back": "Orqaga qaytish",
+    "create_order": {
+      "title": "Yangi buyurtma yaratish",
+      "subtitle": "3 daqiqada professional xizmat oling"
+    },
+    "how_it_works": {
+      "title": "Servis qanday ishlaydi?",
+      "subtitle": "Oddiy 3 bosqichda professional xizmat",
+      "steps": {
+        "fast_service": "Tez xizmat",
+        "fast_service_desc": "Buyurtmangizni 3 daqiqada joylang",
+        "verified_experts": "Professional mutaxassislar",
+        "verified_experts_desc": "Tasdiqlangan mutaxassislar bazasi",
+        "best_offers": "Eng yaxshi takliflar",
+        "best_offers_desc": "Raqobatbardosh narxlar va sifat"
+      }
+    },
+    "need_help": {
+      "title": "Yordam kerakmi?",
+      "desc": "Mutaxassislarimiz sizga yordam berishga tayyor",
+      "btn": "Bog'lanish",
+      "close": "Yopish",
+      "service": "24/7 xizmat",
+      "fast_response": "Tezkor javob kafolati"
+    },
+    "select_type": {
+      "title": "Buyurtma turini tanlang",
+      "subtitle": "Sizga kerakli xizmat turini belgilang",
+      "selected": "Tanlandi",
+      "options": {
+        "buy": {
+          "title": "Maxsus texnika xaridi",
+          "desc": "Maxsus texnikani bevosita egasidan xarid qiling."
+        },
+        "rent": {
+          "title": "Maxsus texnikani ijaraga olish",
+          "desc": "Har qanday ish va muddat uchun texnikani ijaraga oling."
+        },
+        "parts": {
+          "title": "Ehtiyot qismlar xaridi",
+          "desc": "Yangi va ishlatilgan ehtiyot qismlarni arzon narxlarda xarid qiling."
+        },
+        "repair": {
+          "title": "Texnika ta’miri kerak",
+          "desc": "Har qanday texnikani ta’mirlash uchun mutaxassis toping."
+        },
+        "driver": {
+          "title": "Haydovchi qidiryapman",
+          "desc": "Texnikangiz uchun tajribali haydovchini toping."
+        }
+      }
+    },
+    "form": {
+      "order_name": "Buyurtma nomi",
+      "enter_order_name": "Buyurtma nomini kiriting",
+      "order_type": "Qanday turdagi texnikani",
+      "driver_title": "Qanday turdagi texnika uchun haydovchi kerak?",
+      "sell": "sotib olmoqchisiz?",
+      "rent": "ijaraga olmoqchisiz?",
+      "spare_parts_title": "Qaysi texnika uchun ehtiyot qismlar izlayapsiz?",
+      "repair_title": "Qanday turdagi texnikani ta'mirlash kerak?",
+      "select_type": "Texnika turini tanlang",
+      "select_marka": "Texnika markasini tanlang",
+      "select_model": "Texnika modelini tanlang",
+      "select_specialization": "Mutaxassislikni tanlang",
+      "description": "Batafsil tavsif",
+      "description_placeholder": "Texnikaga bo'lgan talablaringiz, ish sharoitlari, muddatlar va boshqa muhim tafsilotlarni tasvirlab bering...",
+      "price_contact": {
+        "section": "Narx va kontakt ma'lumotlari",
+        "note": "To‘lov va aloqa tafsilotlari",
+        "negotiable": "Kelishiladi",
+        "price": "Narxni kiriting (so'm)",
+        "negotiable_placeholder": "Narx kelishiladi",
+        "negotiable_desc": "Narx kelishuv asosida belgilanadi.",
+        "contact_person": "Kontakt",
+        "enter_name": "Ismingizni kiriting",
+        "phone_number": "Telefon raqam"
+      },
+      "searchableselect": {
+        "input_placeholder": "Qidirish...",
+        "not_found": "Hech narsa topilmadi",
+        "no_options": "Variantlar mavjud emas",
+        "selected": "Tanlandi"
+      },
+      "location": {
+        "title": "Manzilni ko'rsating",
+        "country": "Davlatni tanlang",
+        "city": "Shaharni tanlang"
+      },
+      "attachments": {
+        "title": "Hujjatlar va rasmlar",
+        "desc": "Ilova qilingan hujjatlar (ixtiyoriy)",
+        "upload": "Fayllarni yuklash",
+        "or_drag": "yoki fayllarni bu yerga sudrab olib keling",
+        "formats": "SVG, PNG, JPG, JPEG formatlarini qo‘llab-quvvatlaydi",
+        "loading": "Yuklanmoqda...",
+        "downloaded_files": "Yuklangan fayllar",
+        "delete_file": "Faylni o'chirish",
+        "file_info": "Fayl ma'lumotlari",
+        "cover": "Muqova",
+        "looking": "Ko'rish",
+        "no_acsept": "Quyidagi fayllar qabul qilinmadi:",
+        "file_name": "Fayl nomi:",
+        "size": "Hajmi:",
+        "format": "Format:",
+        "preview": "Oldindan ko'rish:" 
+      },
+      "actions": {
+        "cancel": "Bekor qilish",
+        "submit": "Buyurtmani joylashtirish",
+        "sending": "Yuborilmoqda..."
+      },
+      "badges": {
+        "fast_reply": "Tez javob",
+        "verified_experts": "Yuzlab soha mutaxassislari",
+        "high_quality": "Yuqori sifat",
+        "safe": "xavfsiz",
+        "experts": "Mutaxassislar",
+        "quality": "Sifat"
+      }
+    }
+  },
+
+  "useOrderForm": {
+    "force": "majburiy",
+    "phoneRegex": "Iltimos, telefon raqamingizni +998 kodidan keyin 9 ta raqam shaklida kiriting. Namuna: +998901234567",
+    "title_err": "Sarlavha kamida 3 ta belgidan iborat bo'lishi kerak",
+    "description_err": "Tavsif kamida 10 ta belgidan iborat bo'lishi kerak",
+    "contact_err": "Kontakt nomi kamida 2 ta belgidan iborat bo'lishi kerak",
+    "blow_fields_notFull": "Quyidagi maydonlar to'ldirilmagan:",
+    "fill_form": "Formani to'ldiring!",
+    "succes_print": "Buyurtma muvaffaqiyatli yaratildi! 🎉",
+    "succes_print_desc": "Sizning buyurtmangiz chop etildi.",
+    "error_sending": "Buyurtma yuborishda xatolik yuz berdi. Qayta urinib ko'ring.",
+    
+    "title": "Sarlavha majburiy",
+    "techType": "Texnika turini tanlash majburiy",
+    "description": "Tavsif majburiy",
+    "contact": "Kontakt nomi majburiy",
+    "phone": "Telefon raqami majburiy",
+    "country": "Davlatni tanlash majburiy",
+    "city": "Shaharni tanlash majburiy",
+    "marka": "Markani tanlash majburiy",
+    "model": "Modelni tanlash majburiy",
+    "price": "Narxni kiriting yoki kelishish bo'yicha belgilang",
+    "general": "Iltimos, barcha majburiy maydonlarni to'ldiring",
+
+    "title_label": "Sarlavha",
+    "techType_label": "Texnika turi",
+    "description_label": "Tavsif",
+    "contact_label": "Kontakt nomi",
+    "phone_label": "Telefon raqami",
+    "country_label": "Davlat",
+    "city_label": "Shahar",
+    "marka_label": "Marka",
+    "model_label": "Model",
+    "price_label": "Narx"
+  },
+
+  "ApplicationForm": {
+    "back": "Orqaga qaytish",
+    "create_order": {
+      "title": "Yangi e'lon yaratish",
+      "subtitle": "Buyurtmangizni 3 daqiqada yangilang"
+    },
+    "edit_order": {
+      "title": "E'lonni tahrirlash",
+      "subtitle": "3 daqiqada professional xizmat oling"
+    },
+    "errors": {
+      "error_fetching": "Tahrir ma'lumotlarini yuklashda xatolik yuz berdi:",
+      "failed_loadData": "Ma'lumotlarni yuklab bo‘lmadi",
+      "error_occured": "Xatolik yuz berdi",
+      "someting_went_wrong": "Nimadir noto‘g‘ri bajarildi. Iltimos, qayta urinib ko‘ring.",
+      "try_again": "Qayta urinib ko‘ring."
+    },
+    "select_type": {
+      "title": "E'lon turini tanlang",
+      "subtitle": "Sizga kerakli xizmat turini belgilang",
+      "selected": "Tanlandi",
+      "options": {
+        "buy": {
+          "title": "Texnika savdosi",
+          "desc": "Texnikangizni sotish uchun e’lon joylashtiring."
+        },
+        "rent": {
+          "title": "Ijara",
+          "desc": "Texnikani qulay shartlarda ijaraga bering."
+        },
+        "parts": {
+          "title": "Ehtiyot qismlar",
+          "desc": "Har qanday texnika uchun ehtiyot qismlarni soting."
+        },
+        "repair": {
+          "title": "Ta'mirlash",
+          "desc": "Texnika ta’miri bo‘yicha xizmatlaringizni taklif qiling."
+        },
+        "driver": {
+          "title": "Haydovchi",
+          "desc": "Maxsus texnika haydovchisi sifatida ish toping."
+        }
+      }
+    },
+    "form": {
+      "year": "yil",
+      "field_haveTo_fill": "Bu maydon to'ldirilishi shart",
+      "enter_data": "Ma'lumotlarni kiriting",
+      "marked_field": "bilan belgilangan maydonlarni to'ldirish majburiy",
+      "order_name": "E'lon nomi",
+      "enter_order_name": "E'lon nomini kiriting",
+      "enter_partNumber": "Ehtiyot qism kodi",
+      "enter_experienceYear": "Tajriba (yil)",
+      "minOrderTime": "Minimal ijaraga berish vaqti (soat)",
+      "haveDriver": "Operator (haydovchi) bormi?",
+      "milage": "Yurgan masofa / Dvigatel ishlagan vaqti",
+      "is_cash": "Naqd puldami?",
+      "yes": "Ha",
+      "no": "Yo'q",
+
+      "order_type": "Qanday turdagi texnikani",
+      "driver_title": "Qaysi turdagi texnikani boshqara olasiz?",
+      "sell": "sotmoqchisiz?",
+      "rent": "ijaraga bermoqchisiz?",
+      "spare_parts_title": "Qanday turdagi texnika uchun ehtiyot qismlarni sotmoqchisiz?",
+      "repair_title": "Qanday turdagi texnikani ta'mirlash kerak?",
+      "select_type": "Texnika turini tanlang",
+      "select_marka": "Texnika markasini tanlang",
+      "select_marka_parts": "Ehtiyot qismi uchun mo‘ljallangan texnika markasini tanlang.",
+      "select_model": "Texnika modelini tanlang",
+      "select_specialization": "Mutaxassislikni tanlang",
+      "select_category": "Kategoriyani tanlang",
+
+      "location_of_release": "Ishlab chiqarilgan mamlakatni tanlang",
+      "fuel_type": "Yoqilg'i turini tanlang",
+      "date_of_release": "Ishlab chiqarilgan yilni tanlang",
+      "select": "Tanlang",
+      "select_experience": "Iltimos, siz ishlagan ehtiyot qismlar ishlab chiqaruvchisini tanlang",
+      "experience": "Qaysi ehtiyot qismlar ishlab chiqaruvchisi bilan ishlagansiz?",
+
+      "description": "Batafsil tavsif",
+      "description_placeholder": "Texnikaga bo'lgan talablaringiz, ish sharoitlari, muddatlar va boshqa muhim tafsilotlarni tasvirlab bering...",
+      "price_contact": {
+        "section": "Narx va kontakt ma'lumotlari",
+        "note": "To‘lov va aloqa tafsilotlari",
+        "negotiable": "Kelishiladi",
+        "price": "Narxni kiriting (so'm)",
+        "negotiable_placeholder": "Narx kelishiladi",
+        "negotiable_desc": "Narx kelishuv asosida belgilanadi.",
+        "contact_person": "Kontakt",
+        "enter_name": "Ismingizni kiriting",
+        "phone_number": "Telefon raqam",
+        "hourlyRate": "Soatlik narx",
+        "add_contact": "Telefon raqam qo'shish",
+        "at_least_onePhone": "Kamida bitta telefon raqam kiritish shart"
+
+      },
+      "location": {
+        "title": "Manzilni ko'rsating",
+        "country": "Davlatni tanlang",
+        "city": "Shaharni tanlang",
+        "city_name": "Shahar"
+      },
+      "actions": {
+        "cancel": "Bekor qilish",
+        "submit": "E'lonni joylashtirish",
+        "sending": "Yuborilmoqda..."
+      },
+      "badges": {
+        "fast_reply": "Tez javob",
+        "verified_experts": "Yuzlab soha mutaxassislari",
+        "high_quality": "Yuqori sifat",
+        "safe": "xavfsiz",
+        "experts": "Mutaxassislar",
+        "quality": "Sifat"
+      }
+    }
+  },
+
+  "DescriptionwithTags": {
+    "purchase": {
+      "same_day_delivery": "Buyurtma berilgan kuni yetkazib beriladi",
+      "report_documents": "Hisobot hujjatlari to‘plami",
+      "with_operator": "Operator bilan birga",
+      "without_operator": "Operatorsiz",
+      "low_hours_machine": "Kam ishlatilgan texnika",
+      "cashless_payment": "Naqd va bank orqali to‘lov",
+      "owner": "Egasi",
+      "ready_to_work": "Ishga tayyor",
+      "no_middleman": "Vositachisiz",
+      "seasonal_discounts": "Mavsumiy chegirmalar",
+      "wide_selection": "Keng assortiment",
+      "original_parts": "Original ehtiyot qismlar",
+      "good_condition": "Yaxshi holatda",
+      "engine_ok": "Motor holati a'lo",
+      "price_with_vat": "QQS bilan narx",
+      "price_without_vat": "QQS siz narx",
+      "on_order": "Buyurtma asosida",
+      "in_cash": "Naqt",
+      "installment_payment": "Bo'lib to'lash",
+      "delivery_help": "Yetkazishda yordam",
+      "free_delivery": "Bepul yetkazib berish",
+      "no_expenditure_needed": "Qo'shimcha xarajatlar talab qilinmaydi",
+      "official_service": "Rasmiy diler tomonidan xizmat ko‘rsatiladi",
+      "ready_to_use": "Foydalanishga tayyor",
+      "leasing_available": "Lizing mavjud",
+      "installmentInstallment_payment": "Bo‘lib-bo‘lib to‘lash",
+      "warranty": "Kafolat",
+      "factory_warranty": "Zavod kafolati",
+      "support_service_team": "Servis qo‘llab-quvvatlash liniyasi",
+      "free_training": "Bepul o‘qitish (yo‘lga qo‘yish bo‘yicha)",
+      "delivery_uz": "O'zbekiston bo'ylab yetkazib berish",
+      "full_equipment": "To‘liq jihozlash",
+      "full_documentation": "To'liq hujjatlar bilan bilan"
+
+    },
+    "rent": {
+      "with_operator": "Operator bilan",
+      "without_operator": "Operatorsiz",
+      "fuel_included": "Yoqilg'i narxga kiritilgan",
+      "fuel_extra": "Yoqilg'i alohida to'lanadi",
+      "long_term_rent": "Uzoq muddatli ijaraga beriladi",
+      "short_term_rent": "Qisqa muddatli ijaraga beriladi",
+      "customer_delivery": "Mijoz o'zi yetkazadi",
+      "low_hours_machine": "Kam ishlatilgan texnika",
+      "available_now": "Hozir mavjud",
+      "experienced_crew": "Tajribali ishchi guruh",
+      "cashless_payment": "Naqd va bank orqali to‘lov",
+      "owner": "Egasi",
+      "ready_to_work": "Ishga tayyor",
+      "no_middleman": "Vositachisiz",
+      "works_on_holidays": "Bayram va dam olish kunlari ishlaydi",
+      "long_term_discount": "Uzoq muddatli buyurtmalarga chegirmalar mavjud",
+      "good_condition": "Yaxshi holatda",
+      "engine_ok": "Motor holati a'lo",
+      "price_with_vat": "QQS bilan narx",
+      "price_without_vat": "QQS siz narx",
+      "full_documentation": "To'liq hujjatlar bilan bilan",
+      "qualified_operator": "Malakali operator",
+      "official_service": "Rasmiy diler tomonidan xizmat ko‘rsatiladi"
+    },
+    "parts": {
+      "same_day_delivery": "Buyurtma berilgan kuni yetkazib beriladi",
+      "free_delivery": "Bepul yetkazib berish",
+      "cashless_payment": "Naqd va bank orqali to‘lov",
+      "no_middleman": "Vositachisiz",
+      "seasonal_discounts": "Mavsumiy chegirmalar",
+      "ordered_day_delivery": "Murojaat qilingan kuni yetkaziladi",
+      "wide_selection": "Keng assortiment",
+      "original_parts": "Original ehtiyot qismlar",
+      "new_parts": "Yangi ehtiyot qismlar",
+      "used_parts": "Ishlatilgan ehtiyot qismlar",
+      "incash_parts": "Naqd puldagi ehtiyot qismlar",
+      "parts_on_order": "Buyurtma bo'yicha ehtiyot qismlar",
+      "sale": "Chegirmada",
+      "credit": "Kredit asosida",
+      "on_order": "Buyurtma asosida",
+      "in_cash": "Naqt",
+      "installmentInstallment_payment": "Bo‘lib-bo‘lib to‘lash",
+      "delivery_help": "Yetkazishda yordam",
+      "installment_payment": "Bo'lib to'lash",
+      "warranty": "Kafolat",
+      "factory_warranty": "Zavod kafolati",
+      "parts_warehouse": "Ehtiyot qismlar ombori",
+      "delivery_uz": "O'zbekiston bo'ylab yetkazib berish",
+      "full_documentation": "To'liq hujjatlar bilan"
+    },
+    "repair": {
+      "cashless_payment": "Naqd va bank orqali to‘lov",
+      "ready_to_work": "Ishga tayyor",
+      "works_on_holidays": "Bayram va dam olish kunlari ishlaydi",
+      "hotline": "Tez texnik yordam",
+      "full_documentation": "To'liq hujjatlar bilan"
+    },
+    "driver": {
+      "cashless_payment": "Naqd va bank orqali to‘lov",
+      "ready_to_work": "Ishga tayyor",
+      "works_on_holidays": "Bayram va dam olish kunlari ishlaydi",
+      "full_documentation": "To'liq hujjatlar bilan"
+    },
+    "quick_tags": "Tez tanlash teglar (qo‘shish yoki olib tashlash uchun bosing)"
+  },
+
+  "CompanyRegistration": {
+    "company.enter_name": "Kompaniya nomini kiriting",
+    "company.min_length": "Kompaniya nomi kamida 2 ta belgidan iborat bo‘lishi kerak",
+    "company.max_length": "Kompaniya nomi 100 ta belgidan oshmasligi kerak",
+    "company.enter_bin": "BIN raqamini kiriting",
+    "company.bin_length": "BIN 9 ta raqamdan iborat bo‘lishi kerak",
+    "company.bin_digits": "BIN faqat raqamlardan iborat bo‘lishi kerak",
+    "company.select_country": "Mamlakatni tanlang",
+    "company.select_city": "Shaharni tanlang",
+    "company.description_limit": "Tavsif 500 ta belgidan oshmasligi kerak",
+    "company.logo_size": "Logotip hajmi 5MB dan oshmasligi kerak",
+    "company.invalid_file": "Fayl buzilgan yoki noto‘g‘ri formatda",
+    "company.fill_required": "Iltimos, barcha majburiy maydonlarni to‘ldiring",
+    "company.bin_exists": "Bu BIN raqami allaqachon ro‘yxatdan o‘tgan",
+    "company.success": "Muvaffaqiyatli!",
+    "company.registered": "Kompaniya muvaffaqiyatli ro‘yxatdan o‘tdi",
+    "company.error": "Nimadir noto‘g‘ri ketdi. Qayta urinib ko‘ring.",
+    "company.register_title": "Kompaniyani ro‘yxatdan o‘tkazish",
+    "company.completed": "To‘ldirilgan:",
+    "company.upload_logo": "Kompaniya logotipini yuklang",
+    "company.country": "Mamlakat",
+    "company.choose": "Tanlash",
+    "company.city": "Shahar",
+    "company.name": "Kompaniya nomi *",
+    "company.max_chars": "100 ta belgi",
+    "company.digits_9": "9 ta raqam",
+    "company.bin": "BIN (9 ta raqam) *",
+    "company.description": "Kompaniyangiz tavsifi (majburiy emas)",
+    "company.max_500": "500 ta belgi",
+    "company.saving": "Saqlanmoqda...",
+    "company.fill_all": "Barcha maydonlarni to‘ldiring",
+    "company.confirm": "Tasdiqlash",
+    "company.change": "Logotipni o‘zgartirish",
+    "company.upload": "Logotipni yuklash"
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  "currency": {
+    "uzs": "so'm"
+  },
+
+  "mounth": {
+    "jan": "Yanvar",
+    "feb": "Fevral",
+    "mar": "Mart",
+    "apr": "Aprel",
+    "may": "May",
+    "jun": "Iyun",
+    "jul": "Iyul",
+    "aug": "Avgust",
+    "sep": "Sentyabr",
+    "oct": "Oktyabr",
+    "nov": "Noyabr",
+    "dec": "Dekabr"
+  }
+}

@@ -1,0 +1,24 @@
+.swiper-pagination-bullet {
+  background-color: #d1d5db; /* gray-300 */
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin: 0 6px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.swiper-pagination-bullet:hover {
+  transform: scale(1.2);
+  background-color: #f97316;
+
+}
+
+.swiper-pagination-bullet-active {
+  transform: scale(1.4);
+  background-color: #f97316;
+}
+
+.no-underline {
+  text-decoration: none !important;
+}
