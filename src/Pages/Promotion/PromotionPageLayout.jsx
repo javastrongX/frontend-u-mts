@@ -6,7 +6,7 @@ import ScrollToTopButton from "../../components/ScrollTop/ScrollToTopButton";
 import Footer from "../../components/Footer/Footer";
 import PromotionPage from "../../components/ProfileSection/profilecomponents/PromotionPage";
 import { FaDollarSign } from "react-icons/fa";
-import HeaderForTabs from "../../components/ProfileSection/profilecomponents/HeaderForTabs";
+import HeaderForTabs from "../../components/ProfileSection/HeaderForTabs";
 
 const PromotionPageLayout = () => {
   const { t } = useTranslation();
