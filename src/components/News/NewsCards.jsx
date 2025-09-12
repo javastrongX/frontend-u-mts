@@ -56,7 +56,7 @@ const NewsCards = () => {
       try {
         const offset = (currentPage - 1) * limit;
         
-        const response = await fetch(`/api/news/paginated?limit=${limit}&offset=${offset}`);
+        const response = await fetch(`https://backend-u-mts.onrender.com/api/news/paginated?limit=${limit}&offset=${offset}`);
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
