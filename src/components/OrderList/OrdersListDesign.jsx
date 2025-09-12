@@ -268,7 +268,7 @@ const EquipmentListing = ({
       const categoryParam = categoryId > 0 ? `&category_id=${categoryId}` : '';
       
       // Real API call with category filter
-      const res = await fetch(`/api/equipment/paginated?limit=${LIMIT}&offset=${offset}${categoryParam}`);
+      const res = await fetch(`https://backend-u-mts.onrender.com/api/equipment/paginated?limit=${LIMIT}&offset=${offset}${categoryParam}`);
       
       if (!res.ok) {
         throw new Error(`HTTP error! status: ${res.status}`);
