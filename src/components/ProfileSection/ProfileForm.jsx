@@ -115,7 +115,7 @@ const LocationSearchInput = ({
     try {
       const selectedLang = i18n?.language || 'uz';
       const response = await fetch(
-        `/api/places/autocomplete?input=${encodeURIComponent(searchQuery)}&language=${selectedLang}`
+        `https://backend-u-mts.onrender.com/api/places/autocomplete?input=${encodeURIComponent(searchQuery)}&language=${selectedLang}`
       );
       const data = await response.json();
       setSuggestions(data.predictions || []);
