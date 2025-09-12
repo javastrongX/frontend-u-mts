@@ -38,7 +38,7 @@ export const useNews = (currentPage, limit) => {
 
   const handleViewIncrement = async (newsId) => {
     try {
-      const response = await fetch(`/api/news/${newsId}/increment-view`, {
+      const response = await fetch(`https://backend-u-mts.onrender.com/api/news/${newsId}/increment-view`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
