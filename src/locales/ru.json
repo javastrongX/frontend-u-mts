@@ -1,7 +1,7 @@
 {
   "avatar": {
     "welcome": "Добро пожаловать",
-    "brand": "TService.uz",
+    "brand": "UZMAT.uz",
     "brand_subtitle": "Мир спецтехники",
     "login": "Войти",
     "register": "Регистрация",
@@ -21,9 +21,10 @@
   "choose_lang": "Выберите язык",
 
   "user_links": {
-  "balance": "Пополнить баланс",
-  "messages": "Сообщения",
-  "saved": "Избранное"
+    "balance": "Пополнить баланс",
+    "messages": "Сообщения",
+    "saved": "Избранное",
+    "manage_orders": "Управление заказами"
   },
   "user_menu": {
     "profile": "Профиль", 
@@ -53,6 +54,7 @@
   "side_nav": {
     "sell_special_tech": "Продажа спецтехники",
     "rent": "Аренда спецтехники",
+    "rentgrid": "Аренда спецтехники",
     "orders": "Заказы",
     "spare_parts": "Запчасти",
     "repair": "Ремонт",
@@ -61,14 +63,18 @@
   },
   "hot_offers": {
     "hot_offer": "Горячее предложения",
-    "iwannaCome": "Хочу сюда!"
+    "iwannaCome": "Хочу сюда!",
+    "notfound": "Горячие предложения не найдены"
   },
   "mobile_hot_offers": {
     "title": "Спецтехники по Узбекистану",
     "rank_search": " раз поднятие в поиске",
     "rank_hot_offer": " раз в блоке «Топ»",
     "premium_product": "  раз в блоке «Премиум»",
-    "downloaded_all_resources": "Все продукции загружена"
+    "downloaded_all_resources": "Все продукции загружена",
+    "product_found": "Найденные продукции",
+    "categories": "Категории",
+    "no_products_found": "К сожалению, ничего не найдено"
   },
   "auth_register": {
     "register": "Регистрация",
@@ -76,12 +82,24 @@
     "select_country": "Выберите страну", 
     "input_placeleholder": "Поиск страны...",
     "email_err": "Email обязателен",
-    "correct_err": "Неверный формат email",
+    "phone_err": "Номер телефона обязателен",
     "country_err": "Пожалуйста, выберите страну",
     "country_notFound": "Страна не найдена",
     "confirm_login": "Подтвердить",
     "already_login": "Уже зарегистрированы?",
-    "login": "Авторизуйтесь"
+    "login": "Авторизуйтесь",
+    "phone_format_error": "Неверный формат номера телефона",
+    "email_format_error": "Неверный формат email",
+    "error":"Произошла ошибка!",
+    "fill_fields": "Пожалуйста, заполните все поля",
+    "registration_failed": "Произошла ошибка при регистрации!",
+    "userExists": "Пользователь уже существует",
+    "userExistsDescription": "Этот email/номер телефона уже зарегистрирован. Перейдите на страницу входа.",
+    "registerSuccess": "Регистрация прошла успешно",
+    "verificationCodeSent": "Код подтверждения отправлен. Проверьте email/телефон.",
+    "phone":"Номер телефона",
+    "registering": "Проверяется...",
+    "continue": "Подтвердить"
   },
   "auth_login": {
     "login": "Вход",
@@ -92,8 +110,18 @@
     "no_accaunt": "У вас еще нет аккаунта? ",
     "register": "Регистрация",
     "login_verify": "Подтвердить",
+    "verifying": "Проверяется...",
     "email_or_phone_err": "Email или номер обязательны для заполнения",
-    "password_err": "Обязателен для заполнения"
+    "email_format_error": "Email введён неправильно!",
+    "password_err": "Пароль введён неправильно!",
+    "invalidPhoneLength": "Номер телефона должен содержать 9 цифр",
+    "passwordMinLength": "Пароль должен содержать не менее 6 символов",
+    "fillAllFields": "Пожалуйста, заполните все поля правильно",
+    "error": "Ошибка!",
+    "success": "Успешно",
+    "loginSuccess": "Вы успешно вошли в систему!",
+    "loginErrorTitle": "Ошибка входа",
+    "loginErrorMessage": "Произошла ошибка во время входа в систему"
   },
   "not_found": {
     "404_notF": "Страница не найдена",
@@ -116,13 +144,18 @@
     "title": "Поможем в выборе!",
     "about_us_1": "Если у вас остались вопросы или вы не знаете, что выбрать, обратитесь в наш отдел продаж или оставьте заявку.",
     "about_us_2": "По вопросам объявлений и личного кабинета просим обращаться в службу заботы о пользователях.",
-    "adress": "Toshkent Chilonzor 20-D 30-uy",
+    "adress": "Andijon, Shahrixon",
     "name": "Имя",
     "write_name": "Введите ваше имя",
     "number_label": "Номер телефона",
     "country": "Город",
-    "request_btn": "Отправить заявку"
+    "request_btn": "Отправить заявку",
+    "name_required": "Имя обязательно",
+    "phone_required": "Номер телефона обязателен",
+    "region_required": "Выберите регион",
+    "request_sent": "Ваш запрос отправлен!"
   },
+
   "footer": {
     "available_mobileApp": "Уже доступно для скачивания",
     "pages": "Страницы",
@@ -138,12 +171,13 @@
     "terms_of_use": "Правила пользования",
     "contacs": "Контакты"
   },
+
   "business": {
     "title": "Продавайте\nспецтехнику и\nзапчасти без усилий!",
     "title_txt": "Мы предлагаем уникальную платформу, которая помогает дилерам спецтехники эффективно управлять своими продажами, расширять клиентскую базу и увеличивать прибыль.",
     "all_btn": "Начать продавать",
-    "stats_txt": "Аудитория TService.uz 50 000 пользователей, заинтересованных в покупке, продаже, аренде техники, запчастях и услугах.",
-    "advance_title": "Преимущества TService Business",
+    "stats_txt": "Аудитория UZMAT.uz 50 000 пользователей, заинтересованных в покупке, продаже, аренде техники, запчастях и услугах.",
+    "advance_title": "Преимущества Uzmat Business",
     "card1_title": "Управление товарами",
     "advance_card1": "Загрузка и обновление каталогов товаров в несколько кликов.\nВозможность архивировать товары или поднимать их в топ для увеличения видимости.\nМассовая конвертация цен с помощью встроенного конвертера валют — упрощает работу с международными клиентами.",
     "card2_title": "Эффективная работа с клиентами",
@@ -160,10 +194,11 @@
     "tips_step1_title": "Зарегистрируйтесь",
     "tips_step1": "Укажите телефон, адрес электронной почты.",
     "tips_step2_title": "Разместите товары",
-    "tips_step2": "Загрузите фотографии и описания. На TService.uz работает импорт товаров в несколько кликов.",
+    "tips_step2": "Загрузите фотографии и описания. На UZMAT.uz работает импорт товаров в несколько кликов.",
     "tips_step3_title": "Получайте заказы",
     "tips_step3": "Быстро обрабатывайте каждый заказ, ведь покупатель ждет его."
   },
+
   "adsfilterblock": {
     "filter": "Фильтр",
     "category_label_city": "Город",
@@ -185,6 +220,7 @@
     "refresh": "Обновить",
     "more": "ещё"
   },
+
   "activetabspage": {
     "total_announcement_in_uzb": "Все объявления в Узбекистане",
     "sale_of_special_equipment_in_uzb": "Продажа спецтехники в Узбекистане",
@@ -194,6 +230,7 @@
     "drivers_for_special_equipment_in_uzb": "Водители в Узбекистане",
     "announcement": "объявление"
   },
+
   "rightsidebar": {
     "top_offers": "Топ предложения",
     "type_special_equipment": "Типы спецтехники",
@@ -202,6 +239,7 @@
     "more": "ещё",
     "hide": "Скрыть"
   },
+
   "orderlist": {
     "error": "Произошла ошибка!",
     "error_msg": "Произошла ошибка при загрузке данных.",
@@ -216,8 +254,10 @@
     "phone_err": "Номер телефона отсутствует",
     "phone_err_desc": "Для этого заказа не указан номер телефона",
     "count_equipment": "найдено результатов",
-    "page": "Страница"
+    "page": "Страница",
+    "lizing": "Лизинг"
   },
+
   "productcard": {
     "data_notfound": "Данные не найдены",
     "no_title": "Заголовок не указан", 
@@ -227,11 +267,13 @@
     "no_city": "Не указано",
     "no_author": "Анонимно"
   },
+
   "listingheader": {
     "list_of_announcements": "Список заказов",
     "view_list": "В виде списка",
     "view_grid": "В виде сетки"
   },
+
   "partners": {
     "rating": "Рейтинг",
     "detail": "Подробнее",
@@ -257,6 +299,11 @@
     "filter_search": "Фильтр поиска",
     "list_of_company": "Каталог компаний", 
     "all_company": "Все компании:"
+  },
+
+  "promoblock": {
+    "title": "Реклама",
+    "desc": "Ваша реклама может быть здесь!"
   },
 
   "partsmarketplace": {
@@ -368,7 +415,9 @@
     "show_phone": "Показать номер",
     "similar_ads": "Подходящие объявления",
     "all_orders": "Все объявления",
-    "attached_doc": "Приложенные документы"
+    "attached_doc": "Приложенные документы",
+    "callback": "Заказать обратный звонок",
+    "sellerCompany": "Компания"
   },
   "newscards": {
     "news": "Новости",
@@ -464,7 +513,7 @@
           "section": "Стоимость и контактные данные",
           "note": "Информация о платеже и контактах",
           "negotiable": "Договорная",
-          "price": "Укажите цену (сум)",
+          "price": "Укажите цену",
           "negotiable_placeholder": "Цена договаривается",
           "negotiable_desc": "Цена определяется по договоренности.",
           "contact_person": "Контакты",
@@ -637,7 +686,8 @@
           "section": "Стоимость и контактные данные",
           "note": "Информация о платеже и контактах",
           "negotiable": "Договорная",
-          "price": "Укажите цену (сум)",
+          "price": "Укажите цену",
+          "daily_work": "Дневной заработок",
           "negotiable_placeholder": "Цена договаривается",
           "negotiable_desc": "Цена определяется по договоренности.",
           "contact_person": "Контакты",
@@ -649,9 +699,7 @@
         },
         "location": {
           "title": "Указать адрес",
-          "country": "Выберите страну",
-          "city": "Выберите город",
-          "city_name": "Город"
+          "search": "Введите город, страну или адрес..."
         },
         "actions": {
           "cancel": "Отменить",
@@ -807,6 +855,906 @@
     "company.upload": "Загрузить логотип"
   },
 
+  "CompanyActivityForm": {
+    "about_company": "Информация о деятельности компании",
+    "based_onSelectedType": "По выбранному типу, вам будут поступать заказы от клиентов",
+    "skip": "Пропустить",
+    "selected_settings": "Выбранные настройки:",
+    "order_settings": "Настройки заказов:",
+    "order_type": "Типы заказов:",
+    "working_brands": "С какими марками вы работаете ?"
+  },
+
+  "DateSection": {
+    "fresh_top_ads": "Свежие ТОП объявления ",
+    "interesting_ads": "Эти объявления могут быть вам интересны",
+    "show_more": "Показать больше"
+  },
+  "DrawerTabs": {
+    "no_data": "У вас пока нет сообщений."
+  },
+
+  "MessageData": {
+    "notifications.announcements": "Объявления",
+    "notifications.orders": "Заказы",
+    "notifications.payments": "Платежи",
+    "notifications.system": "Системные",
+    "notifications.promotions": "Акции",
+    "notifications.news": "Новости",
+    "notifications.draws": "Розыгрыши"
+  },
+
+  "ProfileSection": {
+    "update_profile": "Профиль обновлен!",
+    "update_profile_desc": "Ваши данные успешно сохранены.",
+    "upload_error": "Ошибка обновления профиля",
+    "upload_image_only": "Пожалуйста, попробуйте загрузить снова.",
+    "update_error_desc": "Не удалось обновить профиль.",
+    "update_error": "Ошибка обновления профиля",
+    "password_error": "Ошибка пароля",
+    "password_required": "Заполните все поля пароля",
+    "password_mismatch": "Пароли не совпадают",
+    "password_mismatch_desc": "Проверьте правильность ввода паролей",
+    "password_updated": "Пароль успешно обновлен",
+    "password_updated_desc": "Ваш пароль успешно обновлен.",
+    "password_update_error": "Ошибка смены пароля",
+    "password_update_error_desc": "Не удалось изменить пароль.",
+    "image_size": "Размер изображения не должен превышать 5MB",
+    "success_upload": "Изображение успешно загружено",
+    "success_upload_avatar": "Аватар успешно обновлен",
+    "downloaded": "Загружено",
+    "upload_image": "Загрузить изображение",
+    "full_name": "Полное имя",
+    "country": "Страна",
+    "enter_country": "Введите страну",
+    "city": "Город",
+    "enter_city": "Введите город",
+    "before_enter_country": "Сначала выберите страну",
+    "phone": "Номер телефона",
+    "about_yourself": "О себе",
+    "about_yourself_placeholder": "Расскажите о себе и ваших услугах...",
+    "save": "Сохранить изменения",
+    "saving": "Сохранение...",
+    "security": "Безопасность и приватность",
+    "new_password": "Новый пароль",
+    "new_password_placeholder": "Придумайте надежный пароль",
+    "confirm_password": "Повторите пароль",
+    "push_notifications": "Push-уведомления",
+    "change_password": "Сменить пароль",
+    "modal_header": "Подтверждение смены пароля",
+    "modal_body": "Вы уверены, что хотите сменить пароль? Это действие потребует повторной авторизации.",
+    "cancel": "Отмена",
+    "confirm": "Подтвердить"
+
+  },
+
+  "companyMenuItems": {
+    "company": "Главная",
+    "companySettings": "Профиль",
+    "messages": "Сообщения",
+    "balance": "Баланс",
+    "leads": "Лиды",
+    "myApplication": "Мои заказы",
+    "myProducts": "Мои объявления",
+    "companyAccounts": "Реквизиты",
+    "companyNews": "Новости",
+    "contacts": "Контакты",
+    "documents": "Документы",
+    "support": "Служба поддержки",
+    "about": "О UZMAT.uz"
+  },
+
+  "ProfileHeader": {
+    "goToUMTS": "Перейти на UZMAT.uz",
+    "goToBusiness": "Перейти на бизнес аккаунт",
+    "becomePartner": "Стать партнером"
+  },
+
+  "TabContent": {
+    "accessDeniedPartner": "У вас нет доступа к этой странице! Чтобы получить доступ, сначала станьте партнёром.",
+    "wallet.title": "Мой кошелек",
+    "wallet.subtitle": "Следите и управляйте своими средствами",
+    "orders.title": "Мои заказы",
+    "orders.subtitle": "Управляйте своими заказами",
+    "listing.title": "Объявление",
+    "listing.subtitle": "Редактируйте, обновляйте или удаляйте свои объявления",
+    "favorites.title": "Избранные",
+    "favorites.subtitle": "Здесь собраны объявления, которые вы отметили как избранные",
+    "support.title": "Служба поддержки",
+    "support.subtitle": "Мы готовы помочь вам с любыми вопросами или проблемами",
+    "about.title": "О UZMAT.uz",
+    "about.subtitle": "Узнайте больше о нашей платформе и наших целях",
+    "balance.current": "Текущий баланс",
+    "balance.bonuses": "Бонусы:",
+    "balance.top_up": "Пополнить",
+    "balance.month_income": "Доходы за месяц",
+    "balance.total_transactions": "Всего транзакций",
+    "balance.average_time": "Среднее время",
+    "balance.enter_amount": "Введите сумму пополнения",
+    "balance.bonus": "бонус",
+    "balance.enter_price_min": "Введите цену (мин. 35,000 сум)",
+    "balance.bonus_offer": "от 200,000 сум +20% бонус",
+    "balance.payment_method": "Способ оплаты",
+    "balance.by_card": "Банковской картой",
+    "balance.by_operator": "Оператором связи",
+    "balance.remote_clickup": "Удаленная оплата (Clickup)",
+    "balance.enter_min_amount": "Введите сумму (мин. 35,000 сум",
+    "balance.confirm_top_up": "Пополнить баланс",
+    "balance.transaction_history": "История транзакций",
+    "balance.all": "Все",
+    "balance.pending": "Ожидает",
+    "balance.recharges": "Пополнения",
+    "balance.payments": "Оплата",
+    "balance.method_card": "Способ оплаты: Банковской картой",
+    "balance.no_pending": "Нет ожидающих транзакций",
+    "balance.no_recharges": "Нет пополнений",
+    "balance.no_payments": "Нет оплат"
+  },
+  
+  "MyOrder": {
+    "cancelReason": {
+      "title": "Причина отмены",
+      "changeOrder": "Нужно изменить заказ",
+      "completed": "Заказ выполнен",
+      "noContact": "Не вышел на связь",
+      "noResponses": "Не было откликов",
+      "solvedSelf": "Решил вопрос самостоятельно",
+      "helpedElsewhere": "Помогли на другом сервисе",
+      "changedMind": "Передумал",
+      "other": "Другое",
+      "explainWhy": "Укажи что помешало вам закончить подачу объявления"
+    },
+    "orders": {
+      "all": "Все",
+      "active": "Активные",
+      "cancelled": "Отменённые",
+      "restored": "Заявка восстановлена",
+      "restoredMessage": "заявка успешно восстановлена.",
+      "selectCancelReason": "Пожалуйста, выберите причину отмены.",
+      "cancelledMessage": "заявка отменена.",
+      "cancelledMessages": "Заявка отменена",
+      "deleted": "Заявка удалена",
+      "deletedMessage": "заявка удалена.",
+      "myOrders": "Мои заказы",
+      "subtitle": "Управляйте и отслеживайте свои заказы",
+      "searchPlaceholder": "Поиск по заголовку или категории...",
+      "closeFilters": "Закрыть дополнительные фильтры",
+      "extraFilters": "Дополнительные фильтры",
+      "category": "Категория",
+      "selectCategory": "Выберите категорию",
+      "city": "Город",
+      "selectCity": "Выберите город",
+      "transportType": "Тип техники",
+      "selectTransportType": "Выберите тип техники",
+      "brand": "Марка",
+      "selectBrand": "Выберите марку",
+      "model": "Модель",
+      "selectModel": "Выберите модель",
+      "priceFrom": "Цена от",
+      "priceTo": "Цена до",
+      "clearFilters": "Очистить фильтры",
+      "notFound": "Заявки не найдены",
+      "changeSearch": "Измените параметры поиска или создайте новый заказ",
+      "createOrder": "Создать заказ",
+      "restoreOrder": "Восстановить заказ",
+      "confirmRestore": "Вы уверены, что хотите восстановить заказ?",
+      "restoreInfo": "Заказ будет возвращён в активное состояние и начнёт принимать новые отклики.",
+      "moreInfo": "Дополнительная информация...",
+      "restore": "Восстановить",
+      "cancelOrder": "Отменить заказ",
+      "cancel": "Отменить"
+    }
+  },  
+  "listing": {
+    "photo": "Фото",
+    "name": "Наименование",
+    "category": "Категория",
+    "price": "Цена",
+    "city": "Город",
+    "date": "Дата",
+    "actions": "Действия",
+    "promote": "Продвигать",
+    "promoteAction": "Рекламировать",
+    "statistics": "Статистика",
+    "view": "Просмотр",
+    "edit": "Редактировать",
+    "description": "Описание"
+  },
+
+  "favorites": {
+    "removed": "Удалено из избранного",
+    "removeFailed": "Не удалось удалить товар",
+    "error": "Ошибка",
+    "title": "Избранные товары",
+    "count": "товаров",
+    "empty": "У вас пока нет избранных товаров",
+    "hint": "Добавляйте интересные товары в избранное, чтобы не потерять их"
+  },
+
+  "SupportForm": {
+    "form": {
+      "nameRequired": "Имя обязательно",
+      "phoneRequired": "Номер телефона обязателен",
+      "cityRequired": "Выберите город",
+      "applicationSent": "Заявка отправлена!",
+      "weWillContact": "Мы свяжемся с вами в ближайшее время.",
+      "helpChoose": "Поможем в выборе!",
+      "helpText": "Если у вас остались вопросы или вы не знаете, что выбрать, обратитесь в наш отдел продаж или оставьте заявку.",
+      "supportNote": "По вопросам объявлений и личного кабинета просим обращаться в службу заботы о пользователях.",
+      "name": "Имя",
+      "namePlaceholder": "Введите ваше имя",
+      "phone": "Номер телефона",
+      "city": "Город",
+      "cityHint": "(используйте ↑↓ для навигации, Enter для выбора)",
+      "citySelect": "Выберите город",
+      "citySearch": "Поиск города",
+      "cityInputPlaceholder": "Начните вводить название...",
+      "cityNotFound": "Город не найден",
+      "citySearchTip": "Попробуйте изменить запрос",
+      "sending": "Отправляем...",
+      "submit": "Отправить заявку"
+    }
+  },
+
+  "About": {
+    "companyName": "UZMAT.uz",
+    "companyDescription": "Мир спецтехники - правовая информация",
+    
+    "privacyPolicy": "Политика конфиденциальности",
+    "privacyPolicyShort": "Конфиденциальность",
+    "licenseAgreement": "Лицензионное соглашение",
+    "licenseAgreementShort": "Лицензия",
+    "userAgreement": "Пользовательское соглашение",
+    "userAgreementShort": "Пользователь",
+    "contacts": "Контакты",
+    
+    "contactInformation": "Контактная информация",
+    "contactDescription": "Мир спецтехники - ваш надежный партнер",
+    "email": "Email",
+    "phone": "Телефон",
+    "website": "Веб-сайт",
+    "address": "Адрес",
+    "addressValue": "г. Ташкент, Узбекистан",
+    "aboutCompany": "О компании",
+    "companyInfo": "ТОО \"U-MTS Co\" - ведущая платформа по продаже и аренде специальной техники в Узбекистане. Мы предоставляем удобный сервис для размещения объявлений о спецтехнике, оборудовании и сопутствующих услугах. Наша цель - сделать рынок спецтехники более доступным и прозрачным для всех участников.",
+    
+    "privacyPolicyTitle": "Политика конфиденциальности и обработки персональных данных",
+    "licenseAgreementTitle": "Лицензионное соглашение",
+    "userAgreementTitle": "Пользовательское соглашение"
+  },
+
+  "Statistics": {
+    "views": "Просмотры",
+    "calls": "Звонки",
+    "messages": "Сообщения",
+    "clicks": "Клик по объявлению",
+    "shared": "Поделились",
+    "favorites": "Избранное",
+    "loading": "Загрузка данных...",
+    "error": "Произошла ошибка!",
+    "title": "Панель статистики",
+    "details": "Подробнее",
+    "activityPeriod": "Активность за последние 15 дней"
+  },
+
+  "AdPreview": {
+    "premium": "ПРЕМИУМ",
+    "hot": "ГОРЯЧЕЕ",
+    "top": "ТОП",
+    "previewTitle": "Предосмотр объявления",
+    "views": "просмотров"
+  },
+
+  "PromotionPage": {
+    "days": "дней",
+
+    "Stickers": {
+      "prodaja": {
+        "priceWithVAT": "Цена с НДС",
+        "noInvestment": "Не требует вложений",
+        "officialDealer": "Обслуживалась у оф. дилера",
+        "leasing": "Можно приобрести в лизинг",
+        "bargain": "Есть торг",
+        "excellentCondition": "В отличном состоянии",
+        "installment": "Рассрочка",
+        "guarantee": "Есть гарантия",
+        "urgent": "Срочно"
+      },
+      "arenda": {
+        "fullDocs": "Полная документация",
+        "priceWithVAT": "Цена с НДС",
+        "withOperator": "С опытным оператором",
+        "qualifiedOperator": "Квалифицированный оператор",
+        "excellentCondition": "В отличном состоянии",
+        "available": "Свободен",
+        "readyToWork": "Готов к работе",
+        "gps": "Есть GPS",
+        "urgent": "Срочно",
+        "owner": "Собственник",
+        "reliable": "Надёжный"
+      },
+      "remont": {
+        "expert": "Эксперт",
+        "qualified": "Квалифицированный",
+        "master": "Мастер",
+        "competent": "Компетентный",
+        "specialist": "Специалист",
+        "professional": "Профессионал",
+        "experienced": "Опытный",
+        "reliable": "Надёжный",
+        "urgent": "Срочно"
+      },
+      "zapchast": {
+        "assortment": "Широкий ассортимент",
+        "usedExcellent": "Б/у, отличное состояние",
+        "credit": "В кредит",
+        "duplicate": "Дубликат",
+        "installment": "Рассрочка",
+        "discount": "Скидка",
+        "new": "Новая",
+        "original": "Оригинал",
+        "specialOffer": "Спецпредложение",
+        "sale": "Акция",
+        "clearance": "Распродажа",
+        "lowPrice": "Низкая цена",
+        "inStock": "В наличии",
+        "deliveryUZ": "Доставка по Узбекистану"
+      },
+      "voditel": {
+        "professional": "Профессионал",
+        "responsible": "Ответственный",
+        "reliable": "Надежный",
+        "accurate": "Аккуратный",
+        "experienced": "Опытный",
+        "urgent": "Срочно"
+      }
+    },
+
+    "Tariff": {
+      "standard": {
+        "placement": "Размещение на 7 дней",
+        "raise": "1 поднятие в поиске",
+        "topBlock": "1 день в блоке «Топ»"
+      },
+      "x5": {
+        "placement": "Размещение на 28 дней",
+        "raise": "10 поднятий в поиске",
+        "topBlock": "7 дней в блоке «Топ»"
+      },
+      "x10": {
+        "placement": "Размещение на 28 дней",
+        "raise": "14 поднятий в поиске",
+        "topBlock": "7 дней в блоке «Топ»",
+        "premiumBlock": "7 дней в блоке «Премиум»"
+      }
+    },
+
+    "Common": {
+      "proceedToPayment": "Переходим к оплате",
+      "checkOrderDetails": "Проверьте детали заказа",
+      "loading": "Загрузка...",
+      "promotionTitle": "Продвижение объявления",
+      "expectedResults": "Ожидаемые результаты",
+      "views": "Просмотры",
+      "per": "за",
+      "calls": "Звонки",
+      "onAverage": "в среднем",
+      "additionalStickers": "Дополнительные отметки",
+      "selectUpTo6": "Выберите до 6 отметок (2,500 сум за штуку)",
+      "selectStickers": "Выберите отметки",
+      "selected": "Выбрано:",
+      "paymentMethod": "Способ оплаты",
+      "selectedShort": "Выбрано",
+      "totalToPay": "Итого к оплате",
+      "stickersCount": "отметок",
+      "payAndPromote": "Оплатить и продвинуть",
+      "securePayment": "Безопасная оплата",
+      "instantActivation": "Мгновенная активация",
+      "guaranteedResults": "Гарантия результата",
+      "orderConfirmation": "Подтверждение заказа",
+      "tariff": "тариф",
+      "total": "Итого:",
+      "postPaymentNote": "После оплаты ваше объявление будет автоматически продвинуто",
+      "cancel": "Отменить",
+      "pay": "Оплатить"
+    },
+    "PaymentMethods": {
+      "byCard": "Банковской картой",
+      "byOperator": "Оператором связи",
+      "byWallet": "Кошельком"
+    }
+  },
+  "TariffCarousel": {
+    "selected": "Выбрано",
+    "select": "Выбрать",
+    "popular": "Популярный",
+    "selectCountryFirst": "Сначала выберите страну"
+  },
+
+  "Auth": {
+    "userNotFoundByEmailOrPhone": "Пользователь с таким email или телефоном не найден",
+    "accountNotVerified": "Сначала подтвердите аккаунт",
+    "codeSent": "Код успешно отправлен",
+    "codeExpired": "Срок действия кода истёк. Запросите заново",
+    "invalidCode": "Неверный код",
+    "codeVerified": "Код подтвержден",
+    "userNotFound": "Пользователь не найден",
+    "passwordTooShort": "Пароль должен содержать не менее 6 символов",
+    "passwordUpdated": "Пароль успешно обновлён",
+    "invalidCredentials": "Email/телефон или пароль неверны",
+    "newPasswordTooShort": "Новый пароль должен содержать не менее 6 символов",
+    "incorrectPassword": "Неверный пароль"
+  },
+
+  "Verification": {
+    "error": "Ошибка!",
+    "alreadyRegistered": "Сначала зарегистрируйтесь или вы уже зарегистрированы.",
+    "success": "Успешно!",
+    "emailOrPhoneVerified": "Email/телефон успешно подтверждён",
+    "userNotFound": "Пользователь не найден",
+    "invalidCode": "Неверный код. Попробуйте ещё раз.",
+    "somethingWentWrong": "Что-то пошло не так. Попробуйте ещё раз.",
+    "codeResent": "Код отправлен повторно",
+    "newCodeSent": "Новый код подтверждения отправлен",
+    "codeSendError": "Ошибка при отправке кода",
+    "loading": "Загрузка...",
+    "phoneVerified": "Телефон подтверждён!",
+    "emailVerified": "Email подтверждён!",
+    "your": "Ваш",
+    "phoneNumber": "номер телефона",
+    "emailAddress": "адрес электронной почты",
+    "successfullyVerified": "успешно подтверждён.",
+    "completeYourProfile": "Теперь заполните свой профиль",
+    "fillProfile": "Заполнить профиль",
+    "confirmRegistration": "Подтвердите регистрацию",
+    "codeSent": "Код отправлен для подтверждения",
+    "smsHint": "SMS обычно приходит в течение 5 минут.",
+    "emailHint": "Письмо обычно приходит в течение 15 минут. Проверьте папку «Спам».",
+    "resendCode": "Отправить код повторно",
+    "verifying": "Проверяется...",
+    "confirmingRegistration": "Подтверждение регистрации"
+  },
+
+  "ResetVerification": {
+    "requestFirst": "Сначала отправьте запрос на восстановление пароля.",
+    "codeConfirmed": "Код подтверждён. Теперь создайте новый пароль.",
+    "codeResent": "Код отправлен повторно",
+    "newCodeSent": "Новый код подтверждения отправлен",
+    "codeSendError": "Произошла ошибка при отправке кода",
+    "newPasswordRequired": "Необходимо ввести новый пароль",
+    "minLength": "Пароль должен содержать не менее 6 символов",
+    "passwordMismatch": "Пароли не совпадают",
+    "passwordUpdated": "Пароль успешно обновлён",
+    "reenterPassword": "Повторно введите пароль",
+    "loginWithNew": "Пароль обновлён. Теперь войдите с новым паролем.",
+    "updateError": "Ошибка при обновлении пароля",
+    "back": "Назад",
+    "createNew": "Создайте новый пароль",
+    "resetPassword": "Восстановить пароль",
+    "codeSent": "Код подтверждения отправлен",
+    "newPassword": "Новый пароль",
+    "enterNewPassword": "Введите новый пароль",
+    "confirmPassword": "Подтвердите пароль",
+    "updating": "Обновление...",
+    "updatePassword": "Обновить пароль",
+    "confirmCode": "Подтвердить код"
+  },
+
+  "ForgotPassword": {
+    "emailOrPhoneRequired": "Необходимо ввести email или номер телефона",
+    "invalidFormat": "Введите правильный формат",
+    "invalidEmail": "Введите правильный email",
+    "invalidPhone": "Введите правильный номер телефона",
+    "userNotFound": "Пользователь с таким email или телефоном не найден",
+    "success": "Успешно!",
+    "resetCodeSent": "Код для сброса пароля",
+    "sentVia": "отправлен через",
+    "sentTo": "на",
+    "error": "Ошибка!",
+    "unexpectedError": "Что-то пошло не так. Попробуйте еще раз.",
+    "title": "Сброс пароля",
+    "instruction": "Введите ваш email или номер телефона, и мы отправим вам код для сброса пароля",
+    "placeholder": "Email или номер телефона",
+    "sending": "Отправка...",
+    "sendCode": "Отправить код",
+    "note": "Примечание",
+    "checkSpam": "Если мы отправили письмо, проверьте папку \"Спам\".",
+    "smsDelay": "SMS обычно приходит в течение 5 минут."
+  },
+
+  "UserCompletion": {
+    "error": "Ошибка!",
+    "success": "Успешно!",
+    "emailConfirmationRequired": "Сначала подтвердите электронную почту.",
+    "imageTooLarge": "Размер изображения не должен превышать 5MB.",
+    "invalidImageFormat": "Допускаются только изображения в форматах JPG, PNG, SVG.",
+    "imageUploaded": "Изображение успешно загружено.",
+    "enterFullName": "Введите Ф.И.О.",
+    "fullNameTooShort": "Ф.И.О. должно содержать минимум 2 символа.",
+    "selectCity": "Выберите город.",
+    "enterPassword": "Введите пароль.",
+    "passwordTooShort": "Пароль должен содержать минимум 6 символов.",
+    "reenterPassword": "Повторите пароль.",
+    "passwordMismatch": "Пароли не совпадают.",
+    "profileCompleted": "Профиль успешно заполнен.",
+    "profileCreated": "Ваш профиль успешно создан. Теперь вы можете войти в систему.",
+    "genericError": "Что-то пошло не так. Пожалуйста, попробуйте еще раз.",
+    "loading": "Загрузка...",
+    "back": "Назад",
+    "userData": "Данные Пользователя",
+    "completeProfile": "Заполните информацию профиля",
+    "uploadPhoto": "Загрузить фото",
+    "choose": "Выбрать",
+    "city": "Город",
+    "fullName": "Ф.И.О.",
+    "fullNamePlaceholder": "Введите ваше полное имя",
+    "createPassword": "Придумайте пароль",
+    "passwordPlaceholder": "Введите пароль",
+    "repeatPassword": "Повторите пароль",
+    "confirmPasswordPlaceholder": "Подтвердите пароль",
+    "saving": "Сохраняется...",
+    "confirm": "Подтвердить"
+  },
+
+  "HotOfferDetails": {
+    "productSlugNotFound": "Параметр slug товара не найден",
+    "notFound": "Данные не найдены",
+    "apiError": "Ошибка API",
+    "dataEmpty": "Данные отсутствуют",
+    "unknownProduct": "Неизвестный товар",
+    "noDescription": "Описание отсутствует",
+    "categoryNotSpecified": "Категория не указана",
+    "cityNotSpecified": "Город не указан",
+    "unknownError": "Произошла неизвестная ошибка",
+    "slugNotFound": "URL параметр товара не найден",
+    "updateFavoritesError": "Ошибка при обновлении избранного",
+    "addedToFavorites": "Добавлено в избранное",
+    "removedFromFavorites": "Удалено из избранного",
+    "errorOccurred": "Произошла ошибка",
+    "linkCopied": "Ссылка скопирована",
+    "refreshPage": "Обновить страницу",
+    "goBack": "Вернуться назад",
+    "features": "Характеристики",
+    "description": "Описание",
+    "statistics": "Статистика",
+    "youMayAlsoLike": "Вам также может понравиться",
+    "similarProducts": "Похожие товары",
+    "unknownAuthor": "Неизвестный автор",
+    "viewed": "Просмотрено",
+    "saved": "Сохранено",
+    "shared": "Поделились",
+    "noProperties": "Характеристики отсутствуют"  
+  },
+
+  "SharedNews": {
+    "newsNotFound": "Новость не найдена",
+    "noData": "Данные не найдены",
+    "errorOccurred": "Произошла ошибка",
+    "articleLiked": "Понравилась статья?",
+    "newsAuthor": "Автор новости",
+    "share": "Поделиться"
+  },
+
+  "ProfileMobile": {
+    "orders": "Заказы",
+    "ads": "Объявления",
+    "support": "Служба поддержки",
+    "about": "О UZMAT.uz",
+    "logout": "Выход",
+    "idCopied": "ID скопирован",
+    "idCopiedToClipboard": "ID скопирован в буфер обмена",
+    "copied": "Скопировано!",
+    "copyId": "Скопировать ID",
+    "balance": "Баланс",
+    "hide": "Скрыть",
+    "show": "Показать",
+    "bonus": "Бонус",
+    "topup": "Пополнить баланс",
+    "profile": "Профиль",
+    "settings": "Настройки",
+    "my": "Мои",
+    "more": "Дополнительно",
+    "profilePhoto": "Фото профиля"
+  },
+
+ "contactBottomModal": {
+  "text": "Здравствуйте! Пишу вам через",
+  "cancel": "Отмена",
+  "call": "Позвонить",
+  "write": "Написать",
+  "title": "Детали горячего предложения",
+  "titleOrder": "Детали заказа",
+  "titleAd": "Детали объявления",
+  "phone": "Контакты"
+ },
+
+  "UserPage": {
+    "linkCopied": "Ссылка скопирована!",
+    "linkCopyFailed": "Не удалось скопировать ссылку.",
+    "searchCompleted": "Поиск выполнен",
+    "adsFound": "Найдено",
+    "adsFound2":  "объявлений",
+    "ordersFound": "Найдено",
+    "ordersFound2":  "заказов",
+    "ads": "Объявления",
+    "orders": "Заказы",
+    "noAdsFound": "Нет объявлений по заданным фильтрам",
+    "tryChangingFilters": "Попробуйте изменить параметры поиска",
+    "loadingOrders": "Загрузка заказов...",
+    "noOrdersFound": "Заказы не найдены",
+    "tryChangingOrCreateNew": "Попробуйте изменить параметры поиска или создайте новый заказ",
+    "createOrder": "Создать заказ",
+    "share": "Поделиться",
+    "userProfile": "Профиль пользователя",
+    "city": "Город",
+    "category": "Категория",
+    "priceFrom": "Цена от",
+    "priceTo": "Цена до",
+    "reset": "Сбросить"
+  },
+
+  "account_switcher": {
+    "user": "Пользователь",
+    "company": "Компания",
+    "add_account": "Добавление бизнес-аккаунта",
+    "switch": "Сменить аккаунт"
+  },
+
+  "Business_mode": {
+    "dashboard": {
+      "waiting": "В ожидании",
+      "complated": "Выполнено",
+      "cancelled": "Отменен",
+      "new_orders": "Новые заявки",
+      "view_allOrder": "Показать все заявки",
+      "lead": "Лиды",
+      "view_allLead": "Показать все лиды",
+      "name": "Имя",
+      "status": "Статус",
+      "date": "Дата, время"
+    },
+    "company_contact": {
+      "atLeastOnePhone": "Должен быть введен хотя бы один номер телефона.",
+      "invalidPhone": "Номер телефона должен состоять только из цифр и содержать от 7 до 15 символов.",
+      "success": "Контактная информация успешно сохранена",
+      "error": "Произошла ошибка при сохранении контактных данных. Пожалуйста, попробуйте снова.",
+      "contact_form": "Контакты будут указаны на страницах вашего профиля, объявлений и заявок",
+      "phone": "Номер телефона",
+      "add_contact": "Добавить контакты",
+      "social": "Социальные сети",
+      "add_social": "Добавить соц сети",
+      "save": "Сохранить",
+      "saving": "Сохранение...",
+      "nickname": "Введите ваш ник"
+    },
+    "document_section": {
+      "memory": "Хранилище",
+      "size": "Объем:",
+      "files": "Файлов:",
+      "limit": "Лимиты:",
+      "max_size": "Максимальный размер файла:",
+      "total_size": "Общий объем:",
+      "quantity_files": "Количество файлов:",
+      "info": "Информация о лимитах",
+      "download": "Скачать",
+      "delete": "Удалить",
+      "doc_notAvailable": "Документы компании пока отсутствуют",
+      "doc_notAvailable_desc": "На данный момент у вас нет загруженных документов компании. Добавьте сюда сертификаты, лицензии и другие важные документы, чтобы всегда иметь к ним быстрый доступ и сохранить их в безопасности.",
+      "delete_doc": "Удалить документ",
+      "delete_doc_desc": "Вы действительно хотите удалить файл? Это действие невозможно отменить.",
+      "cancel": "Отмена",
+      "upload_limit_1": "Максимальное количество файлов",
+      "upload_limit_2": "превышено",
+      "upload_limit_3": "Размер файла превышает",
+      "upload_limit_4": "MB.",
+      "upload_limit_5": "Текущий размер:",
+      "no_freeSpace_1": "Недостаточно места. Доступно:",
+      "no_freeSpace_2": "требуется:",
+      "add_doc": "Добавить документ",
+      "up_limit": "Лимит превышен!",
+      "max_files_amout": "Достигнуто максимальное количество файлов",
+      "no_space": "Недостаточно места в хранилище",
+      "apply_limit": "Текущие лимиты:",
+      "doc_name": "Название документа",
+      "enter_doc_name": "Введите название документа",
+      "select_file": "Выбрать файл",
+      "select": "Выберите файл",
+      "add": "Добавить",
+      "main": {
+        "limitExceeded": "Лимит превышен",
+        "maxFilesReached": "Достигнуто максимальное количество файлов",
+        "storageFull": "Хранилище заполнено",
+        "storageLimitReached_1": "Достигнут лимит хранилища",
+        "storageLimitReached_2": "GB",
+        "uploadedSuccessfully": "Успешно загружено",
+        "fileAdded": "успешно добавлен",
+        "deletedSuccessfully": "Успешно удалено",
+        "fileDeleted": "успешно удален",
+        "downloading": "Загрузка",
+        "fileDownloading": "успешно загружается...",
+        "documents": "Документы",
+        "searchPlaceholder": "Поиск...",
+        "uploadFile": "Загрузить файл",
+        "nothingFound": "Ничего не найдено!",
+        "noDocumentsFound": "Нет документов по данному запросу."
+      }
+    },
+    "invoice_section": {
+      "updatedSuccessfully": "Успешно обновлено",
+      "createdSuccessfully": "Успешно создано",
+      "errorOccurred": "Произошла ошибка",
+      "deletedSuccessfully": "Успешно удалено",
+      "deleteError": "Ошибка при удалении",
+      "requisites": "Реквизиты",
+      "totalRequisites_1": "Всего:",
+      "totalRequisites_2": "активных реквизитов",
+      "createNew": "Создать новый",
+      "noInvoices": "У вас пока нет счет-фактур",
+      "noInvoicesDescription": "Чтобы добавить счет-фактуру, используйте кнопку \"Создать новый\" выше. После этого вы сможете добавить новый счет-фактуру.",
+      "createInvoice": "Создать счет-фактуру",
+      "editRequisite": "Редактировать реквизит",
+      "createNewAccount": "Создать новый счет",
+      "individual": "Физическое лицо",
+      "legalEntity": "Юридическое лицо",
+      "companyName": "Название компании",
+      "enterName": "Введите название",
+      "inn": "ИНН",
+      "enterInn": "Введите ИНН",
+      "legalAddress": "Юридический адрес",
+      "enterAddress": "Введите адрес",
+      "email": "Email",
+      "enterEmail": "Введите email",
+      "phoneNumber": "Номер телефона",
+      "enterPhoneNumber": "Введите номер телефона",
+      "contactPerson": "Контактное лицо",
+      "enterFullName": "Введите Ф.И.О.",
+      "postalAddress": "Почтовый адрес",
+      "enterPostalAddress": "Введите почтовый адрес",
+      "stir": "СТИР",
+      "enterStir": "Введите СТИР",
+      "updating": "Обновляется...",
+      "saving": "Сохраняется...",
+      "update": "Обновить",
+      "save": "Сохранить",
+      "items": "шт.",
+      "page": "На странице:"
+    },
+    "Leeds": {
+      "leadLoadError": "Ошибка при загрузке лидов",
+      "statusChanged": "Статус изменен",
+      "leadStatusChanged": "Статус лида изменен на ${statusConfig[newStatus].label}",
+      "error": "Ошибка",
+      "statusChangeError": "Ошибка при изменении статуса",
+      "dataUpdated": "Данные обновлены",
+      "leadDataUpdated": "Данные лида успешно обновлены",
+      "dataUpdateError": "Ошибка при обновлении данных",
+      "retry": "Повторить",
+      "leadsManagement": "Управление лидами",
+      "leadsManagementDescription": "Просматривайте и управляйте всеми лидами",
+      "leadsCount": "лидов",
+      "totalLeads": "Всего",
+      "showingItems": "Показано",
+      "loading": "Загрузка...",
+      "onPage": "На странице:",
+      "phone": "Телефон",
+      "name": "Имя",
+      "note": "Комментарий",
+      "enterNote": "Введите комментарий...",
+      "status": "Статус",
+      "date": "Дата",
+      "source": "Источник",
+      "actions": "Действия",
+      "noLeadsFound": "Лиды не найдены",
+      "tryAdjustingFilters": "Измените фильтры и попробуйте снова",
+      "leadDetails": "Данные лида",
+      "viewEdit": "Просмотр и редактирование",
+      "view": "Просмотр",
+      "pass_page": "Перейти на страницу:",
+      "filtr": {
+        "filters": "Фильтры",
+        "search": "Поиск (телефон или имя)",
+        "searchPlaceholder": "Введите номер телефона или имя...",
+        "status": "Статус",
+        "all": "Все"
+      }
+    },
+    "News_Section": {
+      "categories": {
+        "promotionsAndDiscounts": "Акции и скидки",
+        "analytics": "Аналитика",
+        "video": "Видео",
+        "exhibitionsAndEvents": "Выставки и мероприятия",
+        "legislation": "Законодательство",
+        "greenTechnologies": "Зеленые технологии",
+        "importSubstitutionAndLocalization": "Импортозамещение и локализация",
+        "interestingFact": "Интересный факт",
+        "infrastructure": "Инфраструктура",
+        "careers": "Карьеры",
+        "marketing": "Маркетинг",
+        "specialEquipmentMarket": "Рынок спецтехники",
+        "news": "Новости",
+        "qserviceNews": "Новости Uzmat",
+        "reviews": "Обзоры",
+        "feedback": "Отзывы",
+        "partnerMaterials": "Партнерские материалы",
+        "aboutRent": "Про аренду",
+        "serviceAndComponents": "Сервис и компоненты",
+        "testDrivesAndPhotoReports": "Тест-драйвы и фоторепортажи",
+        "operation": "Эксплуатация",
+        "leasing": "Лизинг"
+      },
+      "error": "Ошибка!",
+      "requiredFields": "Заполните обязательные поля",
+      "success": "Успешно",
+      "updated": "Новость обновлена",
+      "created": "Новость создана",
+      "failedToUpdate": "Не удалось обновить новость",
+      "failedToCreate": "Не удалось создать новость",
+      "deleted": "Новость успешно удалена",
+      "failedToDelete": "Не удалось удалить новость",
+      "saleAnnouncement": "Объявление о продаже спецтехники",
+      "createNews": "Создать новость",
+      "shown": "Показано",
+      "records": "записей",
+      "deleteNews": "Удалить новость",
+      "deleteConfirmation": "Вы уверены, что хотите удалить эту новость? Это действие нельзя отменить.",
+      "cancel": "Отмена",
+      "deleting": "Удаление...",
+      "delete": "Удалить",
+      "table": {
+        "photo": "Фото",
+        "title": "Заголовок",
+        "shortDescription": "Краткое описание",
+        "tags": "Теги",
+        "date": "Дата",
+        "actions": "Действия",
+        "edit": "Редактировать"
+      },
+      "show": "Показать:",
+      "items": "элементов",
+      "uploadForm": {
+        "supportedFormats": "Поддерживаются форматы SVG, PNG, JPG, JPEG",
+        "clickToUpload": "Нажмите чтобы загрузить изображения",
+        "dragFiles": "или перетащите файлы сюда",
+        "imageFormats": "SVG, PNG, JPG или JPEG (MAX. 800x600px)",
+        "cover": "Обложка",
+        "createNews": "Создание новости",
+        "editNews": "Редактирование новости",
+        "newsCover": "Обложка новости",
+        "newsTitle": "Заголовок новости",
+        "enterTitle": "Введите заголовок",
+        "shortDescription": "Короткое описание",
+        "maxChars": "Максимально 120 символов",
+        "newsText": "Текст новости",
+        "fullText": "Полный текст новости",
+        "enterTags": "Введите теги",
+        "selectedTags": "Выбрано тегов:",
+        "creating": "Создание...",
+        "saving": "Сохранение...",
+        "publish": "Опубликовать",
+        "saveChanges": "Сохранить изменения"
+      }
+    }
+
+  },
+
+  "tabs": {
+    "all": "Все",
+    "active": "Активные",
+    "canceled": "Отмененные"
+  },
+
+
+  "cancellation_reason": {
+    "orderChangeNeeded": "Нужно изменить заказ",
+    "orderCompleted": "Заказ выполнен",
+    "noContact": "Не вышел на связь",
+    "noResponses": "Не было откликов",
+    "resolvedIndependently": "Решил вопрос самостоятельно",
+    "helpedElsewhere": "Помогли на другом сервисе",
+    "changedMind": "Передумал",
+    "other": "Другое"
+  },
 
 
 
@@ -830,6 +1778,18 @@
 
 
 
+
+
+
+
+
+
+
+
+  "isArenda": {
+    "smena": "/ смена",
+    "chas": "/ час"
+  },
 
 
   "currency": {
