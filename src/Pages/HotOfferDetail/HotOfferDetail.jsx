@@ -490,7 +490,7 @@ const HotOfferDetail = () => {
     }
 
     try {
-      const response = await fetch(`/api/hot-offers/product/${slug}`, {
+      const response = await fetch(`https://backend-u-mts.onrender.com/api/hot-offers/product/${slug}`, {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
