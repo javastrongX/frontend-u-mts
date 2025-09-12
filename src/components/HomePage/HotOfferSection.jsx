@@ -59,7 +59,7 @@ const HotOfferSection = () => {
       try {
         setLoading(true);
         setError(null);
-        const response = await fetch("/api/hot-offers");
+        const response = await fetch("https://backend-u-mts.onrender.com/api/hot-offers");
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
