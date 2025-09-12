@@ -34,7 +34,7 @@ const SharedNews = () => {
   useEffect(() => {
     const fetchNewsDetail = async () => {
       try {
-        const response = await fetch(`/api/news/${id}`);
+        const response = await fetch(`https://backend-u-mts.onrender.com/api/news/${id}`);
         if (!response.ok) throw new Error(t("SharedNews.noData", "Данные не найдены"));
         const data = await response.json();
         setNews(data);
