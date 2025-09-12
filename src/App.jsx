@@ -1,8 +1,7 @@
 import { Suspense, lazy } from "react";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import { Center, Fade, Box } from "@chakra-ui/react";
 import PulsingDotsLoader from "./components/LazyComponent/PulsingDotsLoader";
-import Coming from "./components/CompanyRegistration/Coming";
 
 // Lazy load route components
 const HomeLayout = lazy(() => import("./Pages/Home/HomeLayout"));
@@ -30,8 +29,7 @@ const PasswordResetVerification = lazy(() => import("./Pages/Auth/Verification/P
 const UserProfileCompletion = lazy(() => import("./Pages/Auth/UserProfileCompletion"));
 const CompanyRegistration = lazy(() => import("./components/CompanyRegistration/CompanyRegistration"));
 const CompanyActivity = lazy(() => import("./components/CompanyRegistration/CompanyActivityForm"));
-
-  
+const UserPage = lazy(() => import("./Pages/UserPageLayout/UserPageLayout"));
 
 // Define routes
 const router = createBrowserRouter([
@@ -44,8 +42,31 @@ const router = createBrowserRouter([
   { path: "/forgot-password", element: <ForgotPasswordForm /> },
   { path: "/verify", element: <EmailVerification /> },
   { path: "/password-reset-verification", element: <PasswordResetVerification /> },
-  { path: "/profile", element: <ProfileLayout /> },
-  { path: "/profile/settings", element: <ProfileLayout /> },
+  
+  
+  // Profile va Company routes - array mapping
+  ...([
+    "/profile",
+    "/profile/settings", 
+    "/profile/messages",
+    "/profile/balance",
+    "/profile/orders",
+    "/profile/ads", 
+    "/profile/favorites",
+    "/profile/support",
+    "/profile/about",
+    "/company",
+    "/company-news",
+    "/company-settings",
+    "/company-accounts",
+    "/leads", 
+    "/my-application",
+    "/my-products",
+    "/contacts",
+    "/documents"
+  ].map(path => ({ path, element: <ProfileLayout /> }))),
+
+  // Other routes
   { path: "/business", element: <Business /> },
   { path: "/ads", element: <Ads /> },
   { path: "/applications", element: <OrderList /> },
@@ -62,17 +83,8 @@ const router = createBrowserRouter([
   { path: "/profile/my-products/statistic/:id", element: <StatistikaLayout /> },
   { path: "/product/promotion/:id", element: <PromotionPageLayout /> },
   { path: "/edit/:id", element: <ApplicationFormLayout /> },
-
-
-  { path: "/profile/messages", element: <ProfileLayout /> },
-  { path: "/profile/balance", element: <ProfileLayout /> },
-  { path: "/profile/orders", element: <ProfileLayout /> },
-  { path: "/profile/ads", element: <ProfileLayout /> },
-  { path: "/profile/favorites", element: <ProfileLayout />},
-  { path: "/profile/support", element: <ProfileLayout /> },
-  { path: "/profile/about", element: <ProfileLayout /> },
-
-  { path: "/company", element: <Coming /> },
+  { path: "/users/:id", element: <UserPage /> },
+  
   { path: "*", element: <NotFound /> }
 ]);
 
