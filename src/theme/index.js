@@ -15,6 +15,7 @@ export const theme = extendTheme(
       custom1130: "1130px",
       custom1200: "1200px",
       xl: "1280px",
+      custom1450: "1450px",
       "2xl": "1536px",
       custom1600: "1600px"
   },
@@ -169,27 +170,31 @@ export const theme = extendTheme(
         },
       },
     },
-
-      FormLabel: {
-        baseStyle: {
-          fontSize: "sm",
-        },
+    Button : {
+      baseStyle: {
+        py: "15px"
       },
-      Input: {
-        variants: {
-          outline: {
-            field: {
-              h: "38px",
-              borderRadius: "8px",
-              fontSize: "sm",
-              pb: "0",
-              _focus: {
-                boxShadow: "0 0 0 1px #5F00D9",
-              },
+    },
+    FormLabel: {
+      baseStyle: {
+        fontSize: "sm",
+      },
+    },
+    Input: {
+      variants: {
+        outline: {
+          field: {
+            h: "38px",
+            borderRadius: "8px",
+            fontSize: "sm",
+            pb: "0",
+            _focus: {
+              boxShadow: "0 0 0 1px #5F00D9",
             },
           },
         },
-      }
+      },
+    }
     },
   },
   withDefaultColorScheme({ colorScheme: "yellow" })
