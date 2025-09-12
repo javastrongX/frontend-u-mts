@@ -44,7 +44,7 @@ const LocationSearchInput = ({
     setIsLoading(true);
     try {
       const selected_Lang = i18n?.language || 'uz';
-      const response = await fetch(`/api/places/autocomplete?input=${encodeURIComponent(searchQuery)}&language=${selected_Lang}`);
+      const response = await fetch(`https://backend-u-mts.onrender.com/api/places/autocomplete?input=${encodeURIComponent(searchQuery)}&language=${selected_Lang}`);
       const data = await response.json();
       setSuggestions(data.predictions || []);
     } catch (error) {
