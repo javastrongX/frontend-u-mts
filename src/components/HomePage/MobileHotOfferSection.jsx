@@ -112,7 +112,7 @@ const MobileHotOfferSection = ({
     try {
       // Kategoriya parametrini qo'shish
       const categoryParam = categoryId ? `&category_id=${categoryId}` : '';
-      const res = await fetch(`/api/products/paginated?limit=${LIMIT}&offset=${currentOffset}${categoryParam}`);
+      const res = await fetch(`https://backend-u-mts.onrender.com/api/products/paginated?limit=${LIMIT}&offset=${currentOffset}${categoryParam}`);
       const data = await res.json();
 
       let productsToSet = data.products;
