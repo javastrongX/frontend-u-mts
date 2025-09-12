@@ -465,7 +465,7 @@ const MobileHotOfferDetails = () => {
     }
 
     try {
-      const apiResponse = await makeRequest(`/api/ads/${slug}`);
+      const apiResponse = await makeRequest(`https://backend-u-mts.onrender.com/api/ads/${slug}`);
       
       if (!apiResponse.success) {
         throw new Error(apiResponse.message || t("HotOfferDetails.apiError", "Ошибка API"));
