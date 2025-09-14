@@ -1,4 +1,4 @@
-import { use, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import {
   Box,
@@ -34,7 +34,6 @@ const SharedNews = () => {
   useEffect(() => {
     const fetchNewsDetail = async () => {
       try {
-        
         const response = await fetch(`https://backend-u-mts.onrender.com/api/news/${id}`);
         if (!response.ok) throw new Error(t("SharedNews.noData", "Данные не найдены"));
         const data = await response.json();
@@ -45,8 +44,11 @@ const SharedNews = () => {
         setLoading(false);
       }
     };
-    fetchNewsDetail();
-  }, [id]);
+    
+    if (id) {
+      fetchNewsDetail();
+    }
+  }, [id, t]);
 
   if (loading)
     return (
