@@ -11,7 +11,11 @@ export default defineConfig({
     strictPort: true,
     cors: true,
     proxy: {
-      '/api': 'http://localhost:5000'
+      '/api': {
+        target: 'https://backend-u-mts.onrender.com',
+        changeOrigin: true,
+        secure: true
+      }
     },
     allowedHosts: 'all'
   },
