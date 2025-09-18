@@ -26,6 +26,7 @@ const ApplicationFormLayout = lazy(() => import("./Pages/PostApplication/Applica
 const ForgotPasswordForm = lazy(() => import("./Pages/Auth/ForgotPasswordForm"));
 const EmailVerification = lazy(() => import("./Pages/Auth/Verification/EmailVerification"));
 const PasswordResetVerification = lazy(() => import("./Pages/Auth/Verification/PasswordResetVerification"));
+const TelegramCodeVerify = lazy(() => import("./Pages/Auth/Verification/TelegramCodeVerify"));
 const UserProfileCompletion = lazy(() => import("./Pages/Auth/UserProfileCompletion"));
 const CompanyRegistration = lazy(() => import("./components/CompanyRegistration/CompanyRegistration"));
 const CompanyActivity = lazy(() => import("./components/CompanyRegistration/CompanyActivityForm"));
@@ -38,6 +39,7 @@ const router = createBrowserRouter([
   { path: "/auth/login", element: <Login /> },
   { path: "/auth/profile-completion", element: <UserProfileCompletion /> },
   { path: "/auth/registration-performer", element: <CompanyRegistration /> },
+  { path: "/auth/telegram-login", element: <TelegramCodeVerify /> },
   { path: "/auth/registration-performer/activity", element: <CompanyActivity /> },
   { path: "/forgot-password", element: <ForgotPasswordForm /> },
   { path: "/verify", element: <EmailVerification /> },
