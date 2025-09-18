@@ -365,8 +365,12 @@ export default function TelegramCodeVerify() {
                 {[...Array(5)].map((_, index) => (
                   <PinInputField
                     key={index}
-                    w="70px"
-                    h="70px"
+                    maxW={'70px'}
+                    maxH={'70px'}
+                    minW={'40px'}
+                    minH={'40px'}
+                    w="100%"
+                    h="100%"
                     borderColor="gray.300"
                     focusBorderColor="#fed500"
                     borderRadius="xl"
