@@ -1,23 +1,30 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react-swc";
+import path from "path";
 import tailwindcss from '@tailwindcss/vite'
 
+// https://vite.dev/config/
 export default defineConfig({
-  base: '/', // 👉 bu SEO-friendly URL'lar uchun kerak
-  plugins: [react(), tailwindcss(),],
+  base: '/',
+  plugins: [react(), tailwindcss()],
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "./src"),
+    },
+  },
   server: {
     host: '0.0.0.0',
     port: 5173,
     strictPort: true,
     cors: true,
+    allowedHosts: ['all'],
     proxy: {
       '/api': {
-        target: 'https://backend-u-mts.onrender.com',
+        target: 'https://server-8cz0.onrender.com',
         changeOrigin: true,
         secure: true
       }
-    },
-    allowedHosts: 'all'
+    }
   },
   preview: {
     port: 8080,
