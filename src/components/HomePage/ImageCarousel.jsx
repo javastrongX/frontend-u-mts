@@ -8,12 +8,12 @@ import { useState, useEffect, useMemo } from "react";
 
 // Mock data
 const mockImages = [
-  { id: 1, imageUrl: "/Images/d-image.png", alt: "Demo Image 1" },
-  { id: 2, imageUrl: "/Images/d-image.png", alt: "Demo Image 2" },
-  { id: 3, imageUrl: "https://litslink.com/wp-content/uploads/2020/11/features-of-java_1.png", alt: "Demo Image 3" },
-  { id: 4, imageUrl: "/Images/d-image.png", alt: "Demo Image 4" },
-  { id: 5, imageUrl: "/Images/d-image.png", alt: "Demo Image 5" },
-  { id: 6, imageUrl: "https://litslink.com/wp-content/uploads/2020/11/features-of-java_1.png", alt: "Demo Image 6" },
+  { id: 1, imageUrl: "/carousel/1-rasm.jpg", alt: "Excavator" },
+  { id: 2, imageUrl: "/carousel/2-rasm.jpg", alt: "Uzmat" },
+  { id: 3, imageUrl: "/carousel/3-rasm.jpg", alt: "UZMAT" },
+  { id: 4, imageUrl: "/carousel/4-rasm.jpg", alt: "UZMAT" },
+  { id: 5, imageUrl: "/carousel/5-rasm.jpg", alt: "UZMAT" },
+  { id: 6, imageUrl: "/carousel/6-rasm.png", alt: "UZMAT" },
 ];
 
 const ImageCarousel = () => {
