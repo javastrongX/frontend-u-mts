@@ -1,7 +1,7 @@
 // Faqat matn ma'lumotlarini yuborish uchun
 export async function fetchPageSupport(textData) {
   try {
-    const response = await fetch(`/api/new-message`, {
+    const response = await fetch(`https://backend-u-mts.onrender.com/api/new-message`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({supportText: textData})
