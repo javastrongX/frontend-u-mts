@@ -14,7 +14,7 @@ export async function fetchPage(formData, isFormData = false) {
     }
     
     const data = await response.json();
-    // console.log('✅ Telegram test natijasi:', data);
+    console.log('✅ Telegram test natijasi:', data);
     return data;
   } catch (error) {
     console.error('❌ Xatolik:', error);
