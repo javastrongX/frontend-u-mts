@@ -1,7 +1,7 @@
 // Agar FormData yuborilsa, Content-Type qo‘ymaymiz
 export async function fetchPage(formData, isFormData = false) {
   try {
-    const response = await fetch(`/api/notify/new-announcement`, {
+    const response = await fetch(`https://backend-u-mts.onrender.com/api/notify/new-announcement`, {
       method: 'POST',
       headers: isFormData ? undefined : { 'Content-Type': 'application/json' },
       body: isFormData ? formData : JSON.stringify({ announcementData: formData })
